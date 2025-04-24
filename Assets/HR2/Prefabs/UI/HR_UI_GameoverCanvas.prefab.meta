@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4105fbd1b149bc3479b9154adb31b80d
+timeCreated: 1452195888
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Prefabs/UI/HR_UI_GameoverCanvas.prefab
+  uploadId: 690723

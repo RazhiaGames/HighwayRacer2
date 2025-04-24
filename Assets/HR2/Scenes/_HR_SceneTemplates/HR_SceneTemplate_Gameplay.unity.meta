@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 78a01ab7ce6ff2e449bd32967f302d0b
+timeCreated: 1451265014
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Scenes/_HR_SceneTemplates/HR_SceneTemplate_Gameplay.unity
+  uploadId: 690723

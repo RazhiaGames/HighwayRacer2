@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 90ba1e39d13f327428ab87c75a99395f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Scripts/Roads and Path/HR_CalculateAngle.cs
+  uploadId: 690723

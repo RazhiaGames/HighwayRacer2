@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c375ef60e3068c04281b6a987f9c945d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Scripts/UI/HR_UIOptionsManager.cs
+  uploadId: 690723

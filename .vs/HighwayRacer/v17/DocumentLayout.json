@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|C:\\Users\\USER\\UnityProjects\\HighwayRacer\\assets\\ash assets\\ash vehicle ai\\ai scripts\\aicarcontrtoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|solutionrelative:assets\\ash assets\\ash vehicle ai\\ai scripts\\aicarcontrtoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|C:\\Users\\USER\\UnityProjects\\HighwayRacer\\assets\\hr2\\scripts\\roads and path\\hr_pathmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|solutionrelative:assets\\hr2\\scripts\\roads and path\\hr_pathmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|C:\\Users\\USER\\UnityProjects\\HighwayRacer\\assets\\hr2\\scripts\\roads and path\\hr_curvedroadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|solutionrelative:assets\\hr2\\scripts\\roads and path\\hr_curvedroadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|C:\\Users\\USER\\UnityProjects\\HighwayRacer\\assets\\hr2\\scripts\\traffic\\hr_trafficmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|solutionrelative:assets\\hr2\\scripts\\traffic\\hr_trafficmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|C:\\Users\\USER\\UnityProjects\\HighwayRacer\\assets\\hr2\\scripts\\hr_player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|solutionrelative:assets\\hr2\\scripts\\hr_player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|c:\\users\\user\\unityprojects\\highwayracer\\assets\\hr2\\scripts\\roads and path\\hr_lane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|solutionrelative:assets\\hr2\\scripts\\roads and path\\hr_lane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|C:\\Users\\USER\\UnityProjects\\HighwayRacer\\assets\\hr2\\scripts\\roads and path\\hr_lanemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|solutionrelative:assets\\hr2\\scripts\\roads and path\\hr_lanemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|C:\\Users\\USER\\UnityProjects\\HighwayRacer\\assets\\hr2\\scripts\\roads and path\\hr_curvedroad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|solutionrelative:assets\\hr2\\scripts\\roads and path\\hr_curvedroad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|C:\\Users\\USER\\UnityProjects\\HighwayRacer\\assets\\hr2\\scripts\\misc\\staticdebugtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|solutionrelative:assets\\hr2\\scripts\\misc\\staticdebugtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|C:\\Users\\USER\\UnityProjects\\HighwayRacer\\assets\\hr2\\scripts\\misc\\waittimes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE183DA6-C0C4-019D-917B-61EF28BCB4C1}|Assembly-CSharp.csproj|solutionrelative:assets\\hr2\\scripts\\misc\\waittimes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 422,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StaticDebugTool.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\HR2\\Scripts\\Misc\\StaticDebugTool.cs",
+              "RelativeDocumentMoniker": "Assets\\HR2\\Scripts\\Misc\\StaticDebugTool.cs",
+              "ToolTip": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\HR2\\Scripts\\Misc\\StaticDebugTool.cs",
+              "RelativeToolTip": "Assets\\HR2\\Scripts\\Misc\\StaticDebugTool.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T14:17:24.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HR_Lane.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\HR2\\Scripts\\Roads and Path\\HR_Lane.cs",
+              "RelativeDocumentMoniker": "Assets\\HR2\\Scripts\\Roads and Path\\HR_Lane.cs",
+              "ToolTip": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\HR2\\Scripts\\Roads and Path\\HR_Lane.cs",
+              "RelativeToolTip": "Assets\\HR2\\Scripts\\Roads and Path\\HR_Lane.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwEQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T18:34:24.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HR_CurvedRoad.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\HR2\\Scripts\\Roads and Path\\HR_CurvedRoad.cs",
+              "RelativeDocumentMoniker": "Assets\\HR2\\Scripts\\Roads and Path\\HR_CurvedRoad.cs",
+              "ToolTip": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\HR2\\Scripts\\Roads and Path\\HR_CurvedRoad.cs",
+              "RelativeToolTip": "Assets\\HR2\\Scripts\\Roads and Path\\HR_CurvedRoad.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAqwEkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T18:31:19.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HR_CurvedRoadManager.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\HR2\\Scripts\\Roads and Path\\HR_CurvedRoadManager.cs",
+              "RelativeDocumentMoniker": "Assets\\HR2\\Scripts\\Roads and Path\\HR_CurvedRoadManager.cs",
+              "ToolTip": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\HR2\\Scripts\\Roads and Path\\HR_CurvedRoadManager.cs",
+              "RelativeToolTip": "Assets\\HR2\\Scripts\\Roads and Path\\HR_CurvedRoadManager.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAYwLkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T17:52:36.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HR_PathManager.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\HR2\\Scripts\\Roads and Path\\HR_PathManager.cs",
+              "RelativeDocumentMoniker": "Assets\\HR2\\Scripts\\Roads and Path\\HR_PathManager.cs",
+              "ToolTip": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\HR2\\Scripts\\Roads and Path\\HR_PathManager.cs",
+              "RelativeToolTip": "Assets\\HR2\\Scripts\\Roads and Path\\HR_PathManager.cs",
+              "ViewState": "AgIAAIgBAAAAAAAAAAAYwLwBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T17:46:56.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AiCarContrtoller.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\Ash Assets\\Ash Vehicle AI\\AI Scripts\\AiCarContrtoller.cs",
+              "RelativeDocumentMoniker": "Assets\\Ash Assets\\Ash Vehicle AI\\AI Scripts\\AiCarContrtoller.cs",
+              "ToolTip": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\Ash Assets\\Ash Vehicle AI\\AI Scripts\\AiCarContrtoller.cs",
+              "RelativeToolTip": "Assets\\Ash Assets\\Ash Vehicle AI\\AI Scripts\\AiCarContrtoller.cs",
+              "ViewState": "AgIAAPwCAAAAAAAAAAAIwCUDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T05:58:02.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HR_LaneManager.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\HR2\\Scripts\\Roads and Path\\HR_LaneManager.cs",
+              "RelativeDocumentMoniker": "Assets\\HR2\\Scripts\\Roads and Path\\HR_LaneManager.cs",
+              "ToolTip": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\HR2\\Scripts\\Roads and Path\\HR_LaneManager.cs",
+              "RelativeToolTip": "Assets\\HR2\\Scripts\\Roads and Path\\HR_LaneManager.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAgwEQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T06:03:51.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HR_TrafficManager.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\HR2\\Scripts\\Traffic\\HR_TrafficManager.cs",
+              "RelativeDocumentMoniker": "Assets\\HR2\\Scripts\\Traffic\\HR_TrafficManager.cs",
+              "ToolTip": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\HR2\\Scripts\\Traffic\\HR_TrafficManager.cs",
+              "RelativeToolTip": "Assets\\HR2\\Scripts\\Traffic\\HR_TrafficManager.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAwwJMAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T21:03:35.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HR_Player.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\HR2\\Scripts\\HR_Player.cs",
+              "RelativeDocumentMoniker": "Assets\\HR2\\Scripts\\HR_Player.cs",
+              "ToolTip": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\HR2\\Scripts\\HR_Player.cs",
+              "RelativeToolTip": "Assets\\HR2\\Scripts\\HR_Player.cs",
+              "ViewState": "AgIAAD8DAAAAAAAAAAAawFMDAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T06:04:25.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WaitTimes.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\HR2\\Scripts\\Misc\\WaitTimes.cs",
+              "RelativeDocumentMoniker": "Assets\\HR2\\Scripts\\Misc\\WaitTimes.cs",
+              "ToolTip": "C:\\Users\\USER\\UnityProjects\\HighwayRacer\\Assets\\HR2\\Scripts\\Misc\\WaitTimes.cs",
+              "RelativeToolTip": "Assets\\HR2\\Scripts\\Misc\\WaitTimes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T14:38:39.236Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

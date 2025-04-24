@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a37372f313bd8804f85d10e9ce290611
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Scripts/Roads and Path/HR_Object.cs
+  uploadId: 690723

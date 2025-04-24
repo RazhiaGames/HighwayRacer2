@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 99e34dda9ad560d41937276c1e277bf8
+timeCreated: 1451924379
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Resources/HR_PlayerCars.asset
+  uploadId: 690723

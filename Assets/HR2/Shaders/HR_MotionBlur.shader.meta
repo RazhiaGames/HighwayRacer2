@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 34030d0a2506c454d804850a97894c3a
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Shaders/HR_MotionBlur.shader
+  uploadId: 690723

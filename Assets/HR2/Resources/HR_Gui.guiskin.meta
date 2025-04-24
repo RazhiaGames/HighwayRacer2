@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4c2ce7e404709d1448a50243096d4caa
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Resources/HR_Gui.guiskin
+  uploadId: 690723

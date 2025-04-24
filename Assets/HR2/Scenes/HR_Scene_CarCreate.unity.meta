@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d2a1fbd51e4b5e94b928abbc6ef0c1d5
+timeCreated: 1470779362
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Scenes/HR_Scene_CarCreate.unity
+  uploadId: 690723

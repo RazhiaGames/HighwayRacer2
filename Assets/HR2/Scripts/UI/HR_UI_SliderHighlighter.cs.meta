@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0c53be5c5f408814c9a7ea89fe5eac31
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Scripts/UI/HR_UI_SliderHighlighter.cs
+  uploadId: 690723

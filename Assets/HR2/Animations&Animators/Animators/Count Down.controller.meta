@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7967dd350ece688439d70abb36d9ace2
+timeCreated: 1452644839
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Animations&Animators/Animators/Count Down.controller
+  uploadId: 690723

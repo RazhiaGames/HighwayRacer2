@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5e073911af4e09a4593e2d6f215841f2
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Scripts/Shaders/HR_BlurredRoad.shader
+  uploadId: 690723

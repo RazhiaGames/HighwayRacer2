@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d538413b4e2c70946b8c651be13a099d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Scripts/Others/HR_Lightshaft.cs
+  uploadId: 690723

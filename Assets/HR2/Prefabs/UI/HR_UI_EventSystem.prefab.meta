@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fee82ca3243f65d4e92907ac13f4b482
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Prefabs/UI/HR_UI_EventSystem.prefab
+  uploadId: 690723

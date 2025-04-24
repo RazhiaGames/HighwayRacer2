@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="85b44e97-34cf-406f-96c9-b9b7cf58fca9" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/HR2/Realistic Car Controller Pro/Scripts/Settings.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2sAX8eKGcUehng00FFKFpbxFLkt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeLensConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\USER\UnityProjects\HighwayRacer -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\USER\UnityProjects\HighwayRacer" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\USER\UnityProjects\HighwayRacer -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\USER\UnityProjects\HighwayRacer" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85b44e97-34cf-406f-96c9-b9b7cf58fca9" name="Changes" comment="" />
+      <created>1737899197288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737899197288</updated>
+      <workItem from="1737899198141" duration="94000" />
+      <workItem from="1737908527864" duration="7000" />
+      <workItem from="1738168149844" duration="1206000" />
+      <workItem from="1738256609275" duration="8613000" />
+      <workItem from="1738351552199" duration="1381000" />
+      <workItem from="1739425720584" duration="1008000" />
+      <workItem from="1739550269040" duration="3358000" />
+      <workItem from="1739626306704" duration="13486000" />
+      <workItem from="1739697798688" duration="3616000" />
+      <workItem from="1739705298828" duration="1257000" />
+      <workItem from="1739706619116" duration="3074000" />
+      <workItem from="1739725329976" duration="2112000" />
+      <workItem from="1739895189631" duration="7303000" />
+      <workItem from="1740069885894" duration="4000" />
+      <workItem from="1740069896636" duration="6263000" />
+      <workItem from="1740156658550" duration="613000" />
+      <workItem from="1740160771344" duration="2712000" />
+      <workItem from="1740513599650" duration="1150000" />
+      <workItem from="1740588887800" duration="8356000" />
+      <workItem from="1740680975300" duration="8000" />
+      <workItem from="1740764136176" duration="31000" />
+      <workItem from="1740764229896" duration="492000" />
+      <workItem from="1740768584178" duration="4248000" />
+      <workItem from="1740831290113" duration="5798000" />
+      <workItem from="1740848166975" duration="10543000" />
+      <workItem from="1740891887272" duration="2705000" />
+      <workItem from="1740896951687" duration="3439000" />
+      <workItem from="1740941133135" duration="1989000" />
+      <workItem from="1741026711860" duration="4492000" />
+      <workItem from="1741064614693" duration="4882000" />
+      <workItem from="1741101960282" duration="9865000" />
+      <workItem from="1741194382629" duration="4152000" />
+      <workItem from="1741281029341" duration="1963000" />
+      <workItem from="1741289001687" duration="1522000" />
+      <workItem from="1741373899834" duration="6438000" />
+      <workItem from="1741413452820" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

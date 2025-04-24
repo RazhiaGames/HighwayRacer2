@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 23c020e5d0f904a45b0a795e4b7efdf2
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Shaders/HR_LightRays.shader
+  uploadId: 690723

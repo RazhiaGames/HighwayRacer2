@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8d0a462e48b4734408f689737e376e4e
+timeCreated: 1450541294
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Prefabs/Traffic Vehicles/TrafficCar2.prefab
+  uploadId: 690723

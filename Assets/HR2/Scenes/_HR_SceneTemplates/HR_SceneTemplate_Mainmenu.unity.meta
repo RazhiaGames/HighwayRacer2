@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a21e4d7fad81f0343811677fb2abc1cd
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Scenes/_HR_SceneTemplates/HR_SceneTemplate_Mainmenu.unity
+  uploadId: 690723

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a7e1c276b1d875b4fb575b6ac279aee9
+timeCreated: 1450367520
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Models/Basic Wheels/Materials/Rim.mat
+  uploadId: 690723

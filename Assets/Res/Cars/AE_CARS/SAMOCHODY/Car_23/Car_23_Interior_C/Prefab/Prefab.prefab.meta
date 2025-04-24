@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: aaab3fc87aa9cf946bbc96e335a1a978
+labels:
+- Car
+- Sports
+- Vehicle
+- Race
+- Racer
+- Lowpoly
+- Lod
+- Hardsurface
+- Wheels
+- Auto
+- Automobile
+- Game
+- Mobile
+- Ride
+- Chase
+- Run
+- Fast
+- Interior
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31101
+  packageName: Fantastic Race Car 23
+  packageVersion: 1,0
+  assetPath: Assets/Res/Cars/AE_CARS/SAMOCHODY/Car_23/Car_23_Interior_C/Prefab/Prefab.prefab
+  uploadId: 52090

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 4901f54988ddbaf43a892ee9a389644e
+timeCreated: 1448882637
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Scripts/Misc/HR_BoundsExtension.cs
+  uploadId: 690723

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 185e9546fc7800a48bd0702d92068f05
+timeCreated: 1451057386
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Scripts/UI/HR_UI_QualityButton.cs
+  uploadId: 690723

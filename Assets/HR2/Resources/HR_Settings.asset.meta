@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5de269dbecc296b42bd70d0006199af8
+timeCreated: 1451907258
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Resources/HR_Settings.asset
+  uploadId: 690723

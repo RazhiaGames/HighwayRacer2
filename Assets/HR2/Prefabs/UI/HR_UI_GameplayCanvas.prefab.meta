@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3c49455ff7757444fa4b466c3250f423
+timeCreated: 1452195886
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Prefabs/UI/HR_UI_GameplayCanvas.prefab
+  uploadId: 690723
