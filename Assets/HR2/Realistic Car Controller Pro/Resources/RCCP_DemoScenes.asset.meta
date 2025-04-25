@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cd6ed9d2651996e4bad4bef9b7125744
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Realistic Car Controller Pro/Resources/RCCP_DemoScenes.asset
+  uploadId: 690723
