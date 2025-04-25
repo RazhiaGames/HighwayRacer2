@@ -302,8 +302,8 @@
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_ButtonTextHighlighter.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Manager\RCCP_SceneManager.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_CartItem.cs" />
-    <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Camera\RCCP_ShowroomCamera.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Lod.cs" />
+    <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Camera\RCCP_ShowroomCamera.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Editors\RCCP_PlayerPrefsX.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\Managers\RCCP_VehicleUpgrade_DecalManager.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Scriptable Objects\RCCP_CustomizationSetups.cs" />
