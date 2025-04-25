@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 73ec67d10329b5b459d17f902312fd17
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Realistic Car Controller Pro/Scripts/Upgrades/Managers/RCCP_VehicleUpgrade_UpgradeManager.cs
+  uploadId: 690723

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a1fafb36893299c419fc9901a4802592
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271991
+  packageName: Road Textures for MicroVerse Roads
+  packageVersion: 1.0
+  assetPath: Assets/MicroVerse-Extras/Road Textures/Demo/Scripts/AutoScreenshot/AutoScreenshot.cs
+  uploadId: 642187

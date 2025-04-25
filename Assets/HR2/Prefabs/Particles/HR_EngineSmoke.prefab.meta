@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3b090b61a13fefe4aa4122659132ae6d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Prefabs/Particles/HR_EngineSmoke.prefab
+  uploadId: 690723

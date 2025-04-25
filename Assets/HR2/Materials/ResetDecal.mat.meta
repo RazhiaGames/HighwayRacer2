@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 656f0f5c8c5f4a14985d7b31e5780135
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Materials/ResetDecal.mat
+  uploadId: 690723

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 335c0520ff61d4185b0669e39ec78903, type: 3}
+  m_Name: ProceduralGroundMaterialConfig
+  m_EditorClassIdentifier: 
+  contentID: Procedural Ground
+  templateMaterials:
+  - material: {fileID: 2100000, guid: 8f81852fb070e544babd9092f6250ba1, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: af3d32c98117fcd4db9a3317b74f7692, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 9d31999c84738c84fb6bf4b1a0991e7c, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 7ffd95cdfb288154b81f41f9351d00a3, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: e9dc567fecccc2f42ab77a5f553979cb, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: babba059259930e468009bfeb98491cf, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 2e2cf9d7da32b7d4c951699348ff8890, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: bdd2d9dd2d1e7404b9282fb68203a23b, type: 2}
+    preview: {fileID: 0}

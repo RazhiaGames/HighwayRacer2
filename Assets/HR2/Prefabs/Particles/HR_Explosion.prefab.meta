@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4925876185b4c094dbe857955f721761
+timeCreated: 1454204444
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Prefabs/Particles/HR_Explosion.prefab
+  uploadId: 690723

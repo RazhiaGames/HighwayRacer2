@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0de88dafa46a739489dcdf676cf2c766
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Realistic Car Controller Pro/Scripts/Shaders/URP/RCCP_Decal_Lit.shadergraph
+  uploadId: 690723

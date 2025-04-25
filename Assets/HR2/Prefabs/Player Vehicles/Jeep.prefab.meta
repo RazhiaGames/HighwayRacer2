@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 270d51590a49069488e25953a3eb13eb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Prefabs/Player Vehicles/Jeep.prefab
+  uploadId: 690723

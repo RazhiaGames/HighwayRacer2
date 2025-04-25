@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 335c0520ff61d4185b0669e39ec78903, type: 3}
+  m_Name: ScannedAsphaltMaterialConfig
+  m_EditorClassIdentifier: 
+  contentID: Scanned Asphalt
+  templateMaterials:
+  - material: {fileID: 2100000, guid: de9d08b3806343048b33610fc6cb140d, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: eba13afb977809e438bc5a01b4f31453, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 5bff41597c7430540b90271470e1540b, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: fbd4f18d928371e478e39f73029c7aac, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 786d68645e4e3a14c9c5bfb2131751de, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: a754599bce83fe747b982f296db9355f, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 7d3c03f5ce3c3194a94b8d7922da9b89, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 69477b0f0fc5e114592a4efa566ac197, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: ff3915f379a8e0d48b31c1f3dcf2baf6, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 36d2f8b6a65b7c04382edca513ccedf7, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 6de84deaa563c51408af03eb32cf521f, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 85de2433ee530e941b29371e7fa07c34, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: a61d76d9f0e23cf45af0605a2862a4e4, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: f89fcc2605ec09649bbb2ab7a77be3b9, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: c004c2cc70aeac245a9d387004fd160b, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: f99ee116605ddc44db8f3147e7c93449, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 2a17a3c3398305b4ea690906056bcc5b, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 1dc3abc20a168a348907bb18a6609d48, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: ef4f89c9c87166a4e9a6a60f970cdd37, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 95fba93655f823841bb0267233f0bc4d, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 7c6bfcd4e7a462b4b8ed37903b9fe2b3, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: ba148b3d075c3764a9e788970b56e997, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: b2b72bbb9e06ad44595cf4339008d50a, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 9f2e6e79b36e2b349bc688f724156744, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 14c97efef3085494c91083aa0abfbf97, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 92c21d424ac5a3449a7a645516450ffc, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: f25664e83ab42f94daad01a94817e860, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 591dd119cc285764f8a93fe73657b32c, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: bfb5c331e7fda6942aea9620abed138c, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: e926ae4e6f8f9d6428a2a8392874e0d6, type: 2}
+    preview: {fileID: 0}

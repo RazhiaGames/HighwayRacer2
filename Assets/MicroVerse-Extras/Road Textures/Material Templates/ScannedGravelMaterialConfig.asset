@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 335c0520ff61d4185b0669e39ec78903, type: 3}
+  m_Name: ScannedGravelMaterialConfig
+  m_EditorClassIdentifier: 
+  contentID: Scanned Gravel
+  templateMaterials:
+  - material: {fileID: 2100000, guid: b70ed2a327940be4a823222e851b6674, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 52d213ac35be81447916bd8d54885d36, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 135700c9d0265e5458a5fb7438c05440, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: dc13e20982060624a9c7d8a62de90178, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 080da7ab8d0dc3a45b2603a58baad973, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 436666196e22a994286fe2dedc62599e, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 3c87bbe8baf191e4485ee285ea19a3bb, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 81735e681059d8b4798aa5c7fcf5915d, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 6facabaa90b11c34b94c5955a0404a41, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 05a7c1d9fd0857b47b53bb9fce05987d, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 77c683943b2414f41978ad3e31b00b14, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: aa493e3ca97fe91448e78cb315cbe8f9, type: 2}
+    preview: {fileID: 0}

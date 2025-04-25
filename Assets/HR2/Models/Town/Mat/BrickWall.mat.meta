@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 830bbcd65ae5e3a4296b744877eb175b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Models/Town/Mat/BrickWall.mat
+  uploadId: 690723

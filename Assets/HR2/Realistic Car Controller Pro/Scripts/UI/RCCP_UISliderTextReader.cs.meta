@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 48ff071f491147c4ab9c25f61b3f9b1d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Realistic Car Controller Pro/Scripts/UI/RCCP_UISliderTextReader.cs
+  uploadId: 690723

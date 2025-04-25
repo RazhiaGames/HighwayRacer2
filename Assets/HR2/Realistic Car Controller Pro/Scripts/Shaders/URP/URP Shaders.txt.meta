@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: baa5c97fcb62afd46840709929a1bab1
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Realistic Car Controller Pro/Scripts/Shaders/URP/URP Shaders.txt
+  uploadId: 690723

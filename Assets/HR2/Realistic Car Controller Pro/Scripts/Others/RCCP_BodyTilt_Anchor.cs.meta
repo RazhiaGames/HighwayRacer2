@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e66fb32e7b33e2c4ba58c74b02f3b0cf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Realistic Car Controller Pro/Scripts/Others/RCCP_BodyTilt_Anchor.cs
+  uploadId: 690723

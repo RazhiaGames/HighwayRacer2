@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b3671bfe3b8eef84db997bdc16ed9f2c
+timeCreated: 1457523319
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Models/Traffic Cars/TrafficCar3/Materials/TrafficCar3_Body.mat
+  uploadId: 690723

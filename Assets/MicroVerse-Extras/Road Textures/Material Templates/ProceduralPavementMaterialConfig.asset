@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 335c0520ff61d4185b0669e39ec78903, type: 3}
+  m_Name: ProceduralPavementMaterialConfig
+  m_EditorClassIdentifier: 
+  contentID: Procedural Pavement
+  templateMaterials:
+  - material: {fileID: 2100000, guid: 7ee27411086efaf4586ce68fe52bf8b1, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 68b13a94e992bbd49bf0db749dc0d5a9, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 9ee4fe1e6cc9f4a45b08e3cc12515e90, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: ac3fd0c5282053048b0e99d49086e62c, type: 2}
+    preview: {fileID: 0}
+  - material: {fileID: 2100000, guid: 75e5d427a9c63da4bac306f5187351e5, type: 2}
+    preview: {fileID: 0}

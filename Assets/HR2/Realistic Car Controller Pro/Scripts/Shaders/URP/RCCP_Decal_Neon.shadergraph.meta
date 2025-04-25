@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 98fcc7c23ae0b0f4f93a59d8be4c3d46
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Realistic Car Controller Pro/Scripts/Shaders/URP/RCCP_Decal_Neon.shadergraph
+  uploadId: 690723

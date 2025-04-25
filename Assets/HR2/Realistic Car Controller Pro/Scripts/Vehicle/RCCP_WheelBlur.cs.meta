@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8c86a09656b62ae4d8dfb70f190eb6a8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Realistic Car Controller Pro/Scripts/Vehicle/RCCP_WheelBlur.cs
+  uploadId: 690723

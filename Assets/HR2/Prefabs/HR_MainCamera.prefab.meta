@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 70a4c0f26fdc0eb4f9f7eaae70e3ed1b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Prefabs/HR_MainCamera.prefab
+  uploadId: 690723

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8c91401dbadb7c341b55064e90865ee5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/URP/UniversalRenderPipelineAsset_High.asset
+  uploadId: 690723
