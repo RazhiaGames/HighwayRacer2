@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 47bc31b49b3079040a93cea2ad709b47
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Prefabs/Player Vehicles/PlayerCar2.prefab
+  uploadId: 690723

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: da685c9676ead6248ab3ac0019efb88e
+timeCreated: 1458253631
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Realistic Car Controller Pro/Materials/Particle Materials/RCCP_Exhaust.mat
+  uploadId: 690723

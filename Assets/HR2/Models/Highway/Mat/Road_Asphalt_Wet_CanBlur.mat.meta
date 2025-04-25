@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ff976b602d0256148b824e008ba83563
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Models/Highway/Mat/Road_Asphalt_Wet_CanBlur.mat
+  uploadId: 690723

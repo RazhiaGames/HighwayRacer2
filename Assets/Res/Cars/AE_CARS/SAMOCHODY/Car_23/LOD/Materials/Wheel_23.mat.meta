@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: ce63aa88ff6eb90419ef3fbb46f972ee
+labels:
+- Car
+- Sports
+- Vehicle
+- Race
+- Racer
+- Lowpoly
+- Lod
+- Hardsurface
+- Wheels
+- Auto
+- Automobile
+- Game
+- Mobile
+- Ride
+- Chase
+- Run
+- Fast
+- Interior
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31101
+  packageName: Fantastic Race Car 23
+  packageVersion: 1,0
+  assetPath: Assets/Res/Cars/AE_CARS/SAMOCHODY/Car_23/LOD/Materials/Wheel_23.mat
+  uploadId: 52090

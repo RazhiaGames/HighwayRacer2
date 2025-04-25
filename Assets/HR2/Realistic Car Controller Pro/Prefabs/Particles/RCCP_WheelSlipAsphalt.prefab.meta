@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e2c4a8323f8addc4696c51e0372cf7c7
+timeCreated: 1436056822
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Realistic Car Controller Pro/Prefabs/Particles/RCCP_WheelSlipAsphalt.prefab
+  uploadId: 690723

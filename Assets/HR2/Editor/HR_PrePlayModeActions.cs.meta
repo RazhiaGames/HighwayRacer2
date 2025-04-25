@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4a586da9b90c20342bed6ab75126cc9c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Editor/HR_PrePlayModeActions.cs
+  uploadId: 690723

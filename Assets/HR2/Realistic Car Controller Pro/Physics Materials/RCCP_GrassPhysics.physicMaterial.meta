@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d8c6b22730520f041a4b9293325bc9c1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 13400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Realistic Car Controller Pro/Physics Materials/RCCP_GrassPhysics.physicMaterial
+  uploadId: 690723

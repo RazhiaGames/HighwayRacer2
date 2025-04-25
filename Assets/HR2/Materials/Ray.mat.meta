@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 06f0f42e770cf0d47b7b682db7673baf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292882
+  packageName: Highway Racer 2
+  packageVersion: 1.16
+  assetPath: Assets/HR2/Materials/Ray.mat
+  uploadId: 690723
