@@ -584,7 +584,7 @@ public class HR_Player : MonoBehaviour
             return;
 
         // Increasing damage.
-        //damage += impulse * 3f;
+        damage += impulse * 3f;
 
         // Resetting combo to 0.
         combo = 0;
@@ -597,11 +597,11 @@ public class HR_Player : MonoBehaviour
             return;
 
         }
-
-        if (damage > 100f)
+        Debug.Log(damage);
+        if (damage > GD.INS.damageToFinishGame)
         {
 
-            damage = 100f;
+            damage = GD.INS.damageToFinishGame;
 
             // Game over.
             GameOver();

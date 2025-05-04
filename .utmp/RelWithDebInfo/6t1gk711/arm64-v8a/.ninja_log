@@ -1,0 +1,12 @@
+# ninja log v5
+103	2156	7679606294358053	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	da6272c75b236823
+2208	3898	7679606305559149	E:/Work/Workspace/_Github Repos/HighwayRacer2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/6t1gk711/obj/arm64-v8a/libswappywrapper.so	e94825fee6f0bd85
+87	4810	7679606321706512	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	15eefe7a570184fd
+43	4821	7679606322960605	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	718acb5b8ffc36a6
+32	5093	7679606323339487	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	3c070344e9699b19
+38	5270	7679606325101994	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	5ff987c3883ec428
+95	5273	7679606323581423	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	14784a8f4f6fb817
+49	5597	7679606330603176	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	3a4872cf832799cc
+67	5746	7679606331862991	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	c55df3661d0d78ea
+1	5883	7679606333673689	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	5805286c7ccd018a
+5883	6053	7679606335576300	E:/Work/Workspace/_Github Repos/HighwayRacer2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/6t1gk711/obj/arm64-v8a/libgame.so	86a548122c8a44c7

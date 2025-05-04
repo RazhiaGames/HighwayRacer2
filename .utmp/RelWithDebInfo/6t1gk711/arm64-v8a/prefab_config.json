@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "prefabPath": "C:\\Users\\nepst\\.gradle\\caches\\modules-2\\files-2.1\\com.google.prefab\\cli\\2.1.0\\aa32fec809c44fa531f01dcfb739b5b3304d3050\\cli-2.1.0-all.jar",
+  "packages": [
+    "C:\\Users\\nepst\\.gradle\\caches\\8.9\\transforms\\5652c66f07446d89a89a7ab2b3eed394\\transformed\\jetified-games-activity-3.0.5\\prefab",
+    "C:\\Users\\nepst\\.gradle\\caches\\8.9\\transforms\\747c4e4229ce66a9feb6a2619761f5fd\\transformed\\jetified-games-frame-pacing-2.1.2\\prefab"
+  ]
+}

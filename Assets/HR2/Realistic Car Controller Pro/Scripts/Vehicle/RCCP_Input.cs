@@ -15,20 +15,19 @@ using System.Collections.Generic;
 /// Input receiver from the RCCP_InputManager.
 /// </summary>
 [AddComponentMenu("BoneCracker Games/Realistic Car Controller Pro/Addons/RCCP Input")]
-public class RCCP_Input : RCCP_Component {
-
-    public RCCP_InputManager RCCPInputManager {
-
-        get {
-
+public class RCCP_Input : RCCP_Component
+{
+    public RCCP_InputManager RCCPInputManager
+    {
+        get
+        {
             if (_RCCPInputManager == null)
                 _RCCPInputManager = RCCP_InputManager.Instance;
 
             return _RCCPInputManager;
-
         }
-
     }
+
     private RCCP_InputManager _RCCPInputManager;
 
     /// <summary>
@@ -42,19 +41,10 @@ public class RCCP_Input : RCCP_Component {
     public bool overrideExternalInputs = false;
 
     [System.Obsolete("Use 'overridePlayerInputs' instead of this.")]
-    public bool overrideInternalInputs {
-
-        get {
-
-            return overridePlayerInputs;
-
-        }
-        set {
-
-            overridePlayerInputs = value;
-
-        }
-
+    public bool overrideInternalInputs
+    {
+        get { return overridePlayerInputs; }
+        set { overridePlayerInputs = value; }
     }
 
     /// <summary>
@@ -100,7 +90,8 @@ public class RCCP_Input : RCCP_Component {
     /// <summary>
     /// Steering Curve. Reduces maximum steering angle on higher speeds.
     /// </summary>
-    public AnimationCurve steeringCurve = new AnimationCurve(new Keyframe(0f, 1f), new Keyframe(100f, .2f), new Keyframe(200f, .15f));
+    public AnimationCurve steeringCurve =
+        new AnimationCurve(new Keyframe(0f, 1f), new Keyframe(100f, .2f), new Keyframe(200f, .15f));
 
     /// <summary>
     /// Steering limiter. Limits the maximum steering angle if vehicle is skidding.
@@ -151,8 +142,8 @@ public class RCCP_Input : RCCP_Component {
 
     float angle = 0f;
 
-    public override void OnEnable() {
-
+    public override void OnEnable()
+    {
         base.OnEnable();
 
         oldCanControl = CarController.canControl;
@@ -181,11 +172,10 @@ public class RCCP_Input : RCCP_Component {
         RCCP_InputManager.OnTrailerDetach += RCCP_InputManager_OnTrailerDetach;
         RCCP_InputManager.OnRecord += RCC_InputManager_OnRecord;
         RCCP_InputManager.OnReplay += RCC_InputManager_OnReplay;
-
     }
 
-    private void Update() {
-
+    private void Update()
+    {
         if (CarController.canControl != oldCanControl || CarController.externalControl != oldExternalControl)
             inputs = new RCCP_Inputs();
 
@@ -196,8 +186,8 @@ public class RCCP_Input : RCCP_Component {
         if (!overridePlayerInputs)
             PlayerInputs();
 
-        if (inputs != null) {
-
+        if (inputs != null)
+        {
             throttleInput = inputs.throttleInput;
             steerInput = inputs.steerInput;
             brakeInput = inputs.brakeInput;
@@ -212,36 +202,38 @@ public class RCCP_Input : RCCP_Component {
             clutchInput = Mathf.Clamp01(clutchInput);
             handbrakeInput = Mathf.Clamp01(handbrakeInput);
             nosInput = Mathf.Clamp01(nosInput);
-
         }
 
-        if (CarController.speed < 25f) {
-
+        if (CarController.speed < 25f)
+        {
             throttleInput = 1f;
             brakeInput = 0f;
             handbrakeInput = 0f;
-
         }
 
         steerInputRaw = steerInput;
 
-        if(CarController.canControl && HR_PathDirection.Instance)
-            angle = HR_CalculateAngle.CalculateAngle(transform.rotation, HR_PathDirection.Instance.transform.rotation * Quaternion.AngleAxis(CarController.FrontAxle.maxSteerAngle * (steerInput * steeringCurve.Evaluate(CarController.speed)), Vector3.up), CarController.FrontAxle.maxSteerAngle * steeringCurve.Evaluate(CarController.speed));
+        if (CarController.canControl && HR_PathDirection.Instance)
+        {
+            angle = HR_CalculateAngle.CalculateAngle(transform.rotation,
+                HR_PathDirection.Instance.transform.rotation * Quaternion.AngleAxis(
+                    CarController.FrontAxle.maxSteerAngle * (steerInput * steeringCurve.Evaluate(CarController.speed)),
+                    Vector3.up), CarController.FrontAxle.maxSteerAngle * steeringCurve.Evaluate(CarController.speed));
+        }
 
-        if (!CarController.externalControl) {
-
-           /* steerInput = (angle * CarController.direction) * 1f;
+        if (!CarController.externalControl)
+        {
+        
+            steerInput = (angle * CarController.direction) * 1f;
             steerInput = Mathf.Clamp(steerInput, -1f, 1f);
-*/
         }
 
         if (!overrideExternalInputs)
             VehicleControlledInputs();
-
     }
 
-    private float CalculateAngleBetweenObjects(Quaternion objA, Quaternion objB) {
-
+    private float CalculateAngleBetweenObjects(Quaternion objA, Quaternion objB)
+    {
         // Get the direction vectors
         Vector3 directionA = objA * Vector3.forward;
         Vector3 directionB = objB * Vector3.forward;
@@ -257,65 +249,58 @@ public class RCCP_Input : RCCP_Component {
         float signedAngle = angle * sign;
 
         return signedAngle * 1f;
-
     }
 
     /// <summary>
     /// Overrides inputs with given inputs.
     /// </summary>
     /// <param name="overridedInputs"></param>
-    public void OverrideInputs(RCCP_Inputs overridedInputs) {
-
+    public void OverrideInputs(RCCP_Inputs overridedInputs)
+    {
         overridePlayerInputs = true;
         inputs = overridedInputs;
-
     }
 
     /// <summary>
     /// Disables overriding inputs mode.
     /// </summary>
-    public void DisableOverrideInputs() {
-
+    public void DisableOverrideInputs()
+    {
         overridePlayerInputs = false;
-
     }
 
     /// <summary>
     /// Internal inputs mainly focused on direct inputs.
     /// </summary>
-    private void PlayerInputs() {
-
+    private void PlayerInputs()
+    {
         if (CarController.canControl && !CarController.externalControl)
             inputs = RCCP_InputManager.Instance.GetInputs();
-
     }
 
     /// <summary>
     /// External inputs mainly focused on processing additional inputs.
     /// </summary>
-    private void VehicleControlledInputs() {
-
+    private void VehicleControlledInputs()
+    {
         //  If vehicle has a gearbox...
-        if (CarController.Gearbox) {
-
-            if (CarController.Gearbox.transmissionType == RCCP_Gearbox.TransmissionType.Automatic && autoReverse) {
-
+        if (CarController.Gearbox)
+        {
+            if (CarController.Gearbox.transmissionType == RCCP_Gearbox.TransmissionType.Automatic && autoReverse)
+            {
                 //  If speed of the vehicle is below 1, and brake input is still high, put it to reverse gear.
-                if (CarController.speed <= 1f && inputs.brakeInput >= .75f) {
-
+                if (CarController.speed <= 1f && inputs.brakeInput >= .75f)
+                {
                     if (!CarController.reversingNow)
                         CarController.Gearbox.ShiftReverse();
-
-                } else {
-
+                }
+                else
+                {
                     //  If speeed of the vehicle is above -1 and still at reverse gear, put it to first gear.
                     if (CarController.speed >= -1 && CarController.reversingNow)
                         CarController.Gearbox.ShiftToGear(0);
-
                 }
-
             }
-
         }
 
         //  Cuts throttle input when shifting.
@@ -328,36 +313,35 @@ public class RCCP_Input : RCCP_Component {
             canInverseInputs = false;
 
         //  Inverse throttle and brake inputs on reverse gear.
-        if (canInverseInputs) {
-
+        if (canInverseInputs)
+        {
             throttleInput = inputs.brakeInput;
             brakeInput = inputs.throttleInput;
-
         }
 
         //  If counter steering is enabled, get sideways slip of the steering wheels and apply it as steer input counter. 
-        if (counterSteering) {
-
+        if (counterSteering)
+        {
             float sidewaysSlip = 0f;
 
             if (CarController.FrontAxle)
-                sidewaysSlip = (CarController.FrontAxle.leftWheelCollider.wheelSlipAmountSideways + CarController.FrontAxle.rightWheelCollider.wheelSlipAmountSideways) / 2f;
+                sidewaysSlip = (CarController.FrontAxle.leftWheelCollider.wheelSlipAmountSideways +
+                                CarController.FrontAxle.rightWheelCollider.wheelSlipAmountSideways) / 2f;
 
             steerInputCounter = (sidewaysSlip * counterSteerFactor);
             steerInputCounter = Mathf.Clamp(steerInputCounter, -1f, 1f);
 
             steerInput += steerInputCounter * (1f - Mathf.Abs(steerInput));
-
         }
 
         // Steering limiter. Limits the maximum steering angle if vehicle is skidding.
-        if (steeringLimiter) {
-
+        if (steeringLimiter)
+        {
             //  If speed of the vehicle is below 5, return.
             if (Mathf.Abs(CarController.speed) < 5f)
                 return;
 
-            float sidewaysSlip = 0f;        //	Total sideways slip of all wheels.
+            float sidewaysSlip = 0f; //	Total sideways slip of all wheels.
 
             //  Getting all sideways slips average.
             foreach (RCCP_WheelCollider w in CarController.AllWheelColliders)
@@ -365,28 +349,28 @@ public class RCCP_Input : RCCP_Component {
 
             sidewaysSlip /= CarController.AllWheelColliders.Length;
 
-            float maxSteerInput = Mathf.Clamp(1f - Mathf.Abs(sidewaysSlip), -1f, 1f);      //	Subtract total average sideways slip from max steer input (1f).;
-            float sign = -Mathf.Sign(sidewaysSlip);      //	Is sideways slip is left or right?
+            float maxSteerInput =
+                Mathf.Clamp(1f - Mathf.Abs(sidewaysSlip), -1f,
+                    1f); //	Subtract total average sideways slip from max steer input (1f).;
+            float sign = -Mathf.Sign(sidewaysSlip); //	Is sideways slip is left or right?
 
             //	If slip is high enough, apply counter input.
             if (maxSteerInput > 0f)
                 steerInput = Mathf.Clamp(steerInput, -maxSteerInput, maxSteerInput);
             else
                 steerInput = Mathf.Clamp(steerInput, sign * maxSteerInput, sign * maxSteerInput);
-
         }
 
         //  Steering curve based on speed. Reduces the maximum steering angle on higher speeds.
         if (steeringCurve != null)
             steerInput *= steeringCurve.Evaluate(Mathf.Abs(CarController.speed));
-
     }
 
     /// <summary>
     /// When pressed indicator all lights button.
     /// </summary>
-    private void RCCP_InputManager_OnPressedIndicatorLights() {
-
+    private void RCCP_InputManager_OnPressedIndicatorLights()
+    {
         //  If no lights component found, return.
         if (!CarController.Lights)
             return;
@@ -403,14 +387,13 @@ public class RCCP_Input : RCCP_Component {
         //  Informing.
         if (RCCPSettings.useInputDebugger)
             RCCP_Events.Event_OnRCCPUIInformer("Switched All Indicators To " + CarController.Lights.indicatorsAll);
-
     }
 
     /// <summary>
     /// When pressed indicators right button.
     /// </summary>
-    private void RCCP_InputManager_OnPressedRightIndicatorLights() {
-
+    private void RCCP_InputManager_OnPressedRightIndicatorLights()
+    {
         //  If no lights found, return.
         if (!CarController.Lights)
             return;
@@ -427,14 +410,13 @@ public class RCCP_Input : RCCP_Component {
         //  Informing.
         if (RCCPSettings.useInputDebugger)
             RCCP_Events.Event_OnRCCPUIInformer("Switched Right Indicators To " + CarController.Lights.indicatorsRight);
-
     }
 
     /// <summary>
     /// When pressed indicators left button.
     /// </summary>
-    private void RCCP_InputManager_OnPressedLeftIndicatorLights() {
-
+    private void RCCP_InputManager_OnPressedLeftIndicatorLights()
+    {
         //  If no lights found, return.
         if (!CarController.Lights)
             return;
@@ -451,14 +433,13 @@ public class RCCP_Input : RCCP_Component {
         //  Informing.
         if (RCCPSettings.useInputDebugger)
             RCCP_Events.Event_OnRCCPUIInformer("Switched Left Indicators To " + CarController.Lights.indicatorsLeft);
-
     }
 
     /// <summary>
     /// When pressed high beam lights button.
     /// </summary>
-    private void RCCP_InputManager_OnPressedHighBeamLights(bool state) {
-
+    private void RCCP_InputManager_OnPressedHighBeamLights(bool state)
+    {
         //  If no lights found, return.
         if (!CarController.Lights)
             return;
@@ -472,15 +453,15 @@ public class RCCP_Input : RCCP_Component {
 
         //  Informing.
         if (RCCPSettings.useInputDebugger)
-            RCCP_Events.Event_OnRCCPUIInformer("Switched High Beam Lights To " + CarController.Lights.highBeamHeadlights);
-
+            RCCP_Events.Event_OnRCCPUIInformer(
+                "Switched High Beam Lights To " + CarController.Lights.highBeamHeadlights);
     }
 
     /// <summary>
     /// When pressed low beam lights button.
     /// </summary>
-    private void RCCP_InputManager_OnPressedLowBeamLights() {
-
+    private void RCCP_InputManager_OnPressedLowBeamLights()
+    {
         //  If no lights found, return.
         if (!CarController.Lights)
             return;
@@ -495,14 +476,13 @@ public class RCCP_Input : RCCP_Component {
         //  Informing.
         if (RCCPSettings.useInputDebugger)
             RCCP_Events.Event_OnRCCPUIInformer("Switched Low Beam Lights To " + CarController.Lights.lowBeamHeadlights);
-
     }
 
     /// <summary>
     /// When pressed steering helper button.
     /// </summary>
-    private void RCCP_InputManager_OnSteeringHelper() {
-
+    private void RCCP_InputManager_OnSteeringHelper()
+    {
         //  If no stability found, return.
         if (!CarController.Stability)
             return;
@@ -517,14 +497,13 @@ public class RCCP_Input : RCCP_Component {
         //  Informer.
         if (RCCPSettings.useInputDebugger)
             RCCP_Events.Event_OnRCCPUIInformer("Switched Steering Helper To " + CarController.Stability.steeringHelper);
-
     }
 
     /// <summary>
     /// When pressed to traction helper button.
     /// </summary>
-    private void RCCP_InputManager_OnTractionHelper() {
-
+    private void RCCP_InputManager_OnTractionHelper()
+    {
         //  If no stability found, return.
         if (!CarController.Stability)
             return;
@@ -539,14 +518,13 @@ public class RCCP_Input : RCCP_Component {
         //  Informer.
         if (RCCPSettings.useInputDebugger)
             RCCP_Events.Event_OnRCCPUIInformer("Switched Traction Helper To " + CarController.Stability.tractionHelper);
-
     }
 
     /// <summary>
     /// When pressed to angular drag helper button.
     /// </summary>
-    private void RCCP_InputManager_OnAngularDragHelper() {
-
+    private void RCCP_InputManager_OnAngularDragHelper()
+    {
         //  If no stability found, return.
         if (!CarController.Stability)
             return;
@@ -560,15 +538,15 @@ public class RCCP_Input : RCCP_Component {
 
         //  Informer.
         if (RCCPSettings.useInputDebugger)
-            RCCP_Events.Event_OnRCCPUIInformer("Switched Angular Drag Helper To " + CarController.Stability.angularDragHelper);
-
+            RCCP_Events.Event_OnRCCPUIInformer("Switched Angular Drag Helper To " +
+                                               CarController.Stability.angularDragHelper);
     }
 
     /// <summary>
     /// When pressed abs button.
     /// </summary>
-    private void RCCP_InputManager_OnABS() {
-
+    private void RCCP_InputManager_OnABS()
+    {
         //  If no stability found, return.
         if (!CarController.Stability)
             return;
@@ -583,14 +561,13 @@ public class RCCP_Input : RCCP_Component {
         //  Informer.
         if (RCCPSettings.useInputDebugger)
             RCCP_Events.Event_OnRCCPUIInformer("Switched ABS To " + CarController.Stability.ABS);
-
     }
 
     /// <summary>
     /// When pressed esp button.
     /// </summary>
-    private void RCCP_InputManager_OnESP() {
-
+    private void RCCP_InputManager_OnESP()
+    {
         //  If no stability found, return.
         if (!CarController.Stability)
             return;
@@ -605,14 +582,13 @@ public class RCCP_Input : RCCP_Component {
         //  Informer.
         if (RCCPSettings.useInputDebugger)
             RCCP_Events.Event_OnRCCPUIInformer("Switched ESP To " + CarController.Stability.ESP);
-
     }
 
     /// <summary>
     /// When pressed tcs button.
     /// </summary>
-    private void RCCP_InputManager_OnTCS() {
-
+    private void RCCP_InputManager_OnTCS()
+    {
         //  If no stability found, return.
         if (!CarController.Stability)
             return;
@@ -627,14 +603,13 @@ public class RCCP_Input : RCCP_Component {
         //  Informer.
         if (RCCPSettings.useInputDebugger)
             RCCP_Events.Event_OnRCCPUIInformer("Switched TCS To " + CarController.Stability.TCS);
-
     }
 
     /// <summary>
     /// When pressed stop engine button.
     /// </summary>
-    private void RCCP_InputManager_OnStopEngine() {
-
+    private void RCCP_InputManager_OnStopEngine()
+    {
         //  If no car controller found, return.
         if (!CarController.Engine)
             return;
@@ -649,14 +624,13 @@ public class RCCP_Input : RCCP_Component {
         //  Informer.
         if (RCCPSettings.useInputDebugger)
             RCCP_Events.Event_OnRCCPUIInformer("Stopped Engine");
-
     }
 
     /// <summary>
     /// When pressed start engine button.
     /// </summary>
-    private void RCCP_InputManager_OnStartEngine() {
-
+    private void RCCP_InputManager_OnStartEngine()
+    {
         //  If no car controller found, return.
         if (!CarController.Engine)
             return;
@@ -667,21 +641,22 @@ public class RCCP_Input : RCCP_Component {
 
         //  Informer.
         if (RCCPSettings.useInputDebugger)
-            RCCP_Events.Event_OnRCCPUIInformer(!CarController.Engine.engineRunning ? "Starting Engine" : "Killing Engine");
+            RCCP_Events.Event_OnRCCPUIInformer(!CarController.Engine.engineRunning
+                ? "Starting Engine"
+                : "Killing Engine");
 
         //  Starting the engine.
         if (!CarController.Engine.engineRunning)
             CarController.Engine.StartEngine();
         else
             CarController.Engine.StopEngine();
-
     }
 
     /// <summary>
     /// When pressed gear shift down button.
     /// </summary>
-    private void RCCP_InputManager_OnGearShiftedDown() {
-
+    private void RCCP_InputManager_OnGearShiftedDown()
+    {
         //  If no gearbox found, return.
         if (!CarController.Gearbox)
             return;
@@ -696,14 +671,13 @@ public class RCCP_Input : RCCP_Component {
         //  Informer.
         if (RCCPSettings.useInputDebugger)
             RCCP_Events.Event_OnRCCPUIInformer("Shifted Down");
-
     }
 
     /// <summary>
     /// When pressed gear shift to button.
     /// </summary>
-    private void RCCP_InputManager_OnGearShiftedTo(int gear) {
-
+    private void RCCP_InputManager_OnGearShiftedTo(int gear)
+    {
         //  If no gearbox found, return.
         if (!CarController.Gearbox)
             return;
@@ -718,14 +692,13 @@ public class RCCP_Input : RCCP_Component {
         //  Informer.
         if (RCCPSettings.useInputDebugger)
             RCCP_Events.Event_OnRCCPUIInformer("Shifted To: " + gear.ToString());
-
     }
 
     /// <summary>
     /// When pressed gear shift down button.
     /// </summary>
-    private void RCCP_InputManager_OnGearShiftedUp() {
-
+    private void RCCP_InputManager_OnGearShiftedUp()
+    {
         //  If no gearbox found, return.
         if (!CarController.Gearbox)
             return;
@@ -740,14 +713,13 @@ public class RCCP_Input : RCCP_Component {
         //  Informer.
         if (RCCPSettings.useInputDebugger)
             RCCP_Events.Event_OnRCCPUIInformer("Shifted Up");
-
     }
 
     /// <summary>
     /// When pressed gear N button.
     /// </summary>
-    private void RCCP_InputManager_OnGearShiftedToN() {
-
+    private void RCCP_InputManager_OnGearShiftedToN()
+    {
         //  If no gearbox found, return.
         if (!CarController.Gearbox)
             return;
@@ -760,18 +732,18 @@ public class RCCP_Input : RCCP_Component {
         CarController.Gearbox.ShiftToN();
 
         //  Informer.
-        if (RCCPSettings.useInputDebugger && CarController.Gearbox.currentGearState.gearState == RCCP_Gearbox.CurrentGearState.GearState.Neutral)
+        if (RCCPSettings.useInputDebugger && CarController.Gearbox.currentGearState.gearState ==
+            RCCP_Gearbox.CurrentGearState.GearState.Neutral)
             RCCP_Events.Event_OnRCCPUIInformer("Shifted To N");
         else
             RCCP_Events.Event_OnRCCPUIInformer("Shifted From N");
-
     }
 
     /// <summary>
     /// When pressed gear toggle button.
     /// </summary>
-    private void RCCP_InputManager_OnGearToggle(RCCP_Gearbox.TransmissionType transmissionType) {
-
+    private void RCCP_InputManager_OnGearToggle(RCCP_Gearbox.TransmissionType transmissionType)
+    {
         //  If no gearbox found, return.
         if (!CarController.Gearbox)
             return;
@@ -785,15 +757,15 @@ public class RCCP_Input : RCCP_Component {
 
         //  Informer.
         if (RCCPSettings.useInputDebugger)
-            RCCP_Events.Event_OnRCCPUIInformer("Automatic Gearbox = " + CarController.Gearbox.transmissionType.ToString());
-
+            RCCP_Events.Event_OnRCCPUIInformer("Automatic Gearbox = " +
+                                               CarController.Gearbox.transmissionType.ToString());
     }
 
     /// <summary>
     /// When automatic gear changed.
     /// </summary>
-    private void RCCP_InputManager_OnAutomaticGearChanged(RCCP_Gearbox.SemiAutomaticDNRPGear semiAutomaticDNRPGear) {
-
+    private void RCCP_InputManager_OnAutomaticGearChanged(RCCP_Gearbox.SemiAutomaticDNRPGear semiAutomaticDNRPGear)
+    {
         //  If no gearbox found, return.
         if (!CarController.Gearbox)
             return;
@@ -808,15 +780,15 @@ public class RCCP_Input : RCCP_Component {
 
         //  Informer.
         if (RCCPSettings.useInputDebugger)
-            RCCP_Events.Event_OnRCCPUIInformer("Automatic Gearbox = " + CarController.Gearbox.automaticGearSelector.ToString());
-
+            RCCP_Events.Event_OnRCCPUIInformer("Automatic Gearbox = " +
+                                               CarController.Gearbox.automaticGearSelector.ToString());
     }
 
     /// <summary>
     /// When pressed trailer detach button.
     /// </summary>
-    private void RCCP_InputManager_OnTrailerDetach() {
-
+    private void RCCP_InputManager_OnTrailerDetach()
+    {
         //  Return if canControl is disabled.
         if (!CarController.IsControllableByPlayer())
             return;
@@ -835,11 +807,10 @@ public class RCCP_Input : RCCP_Component {
         //  Informer.
         if (RCCPSettings.useInputDebugger)
             RCCP_Events.Event_OnRCCPUIInformer("Trailer Detached");
-
     }
 
-    private void RCC_InputManager_OnRecord() {
-
+    private void RCC_InputManager_OnRecord()
+    {
         //  Return if canControl is disabled.
         if (!CarController.IsControllableByPlayer())
             return;
@@ -856,19 +827,17 @@ public class RCCP_Input : RCCP_Component {
         CarController.OtherAddonsManager.Recorder.Record();
 
         //  Informer.
-        if (RCCPSettings.useInputDebugger) {
-
+        if (RCCPSettings.useInputDebugger)
+        {
             if (CarController.OtherAddonsManager.Recorder.mode == RCCP_Recorder.RecorderMode.Record)
                 RCCP_Events.Event_OnRCCPUIInformer("Recording Started");
             else
                 RCCP_Events.Event_OnRCCPUIInformer("Recording Stopped");
-
         }
-
     }
 
-    private void RCC_InputManager_OnReplay() {
-
+    private void RCC_InputManager_OnReplay()
+    {
         //  Return if canControl is disabled.
         if (!CarController.IsControllableByPlayer())
             return;
@@ -885,19 +854,17 @@ public class RCCP_Input : RCCP_Component {
         CarController.OtherAddonsManager.Recorder.Play();
 
         //  Informer.
-        if (RCCPSettings.useInputDebugger) {
-
+        if (RCCPSettings.useInputDebugger)
+        {
             if (CarController.OtherAddonsManager.Recorder.mode == RCCP_Recorder.RecorderMode.Play)
                 RCCP_Events.Event_OnRCCPUIInformer("Replaying Started");
             else
                 RCCP_Events.Event_OnRCCPUIInformer("Replaying Stopped");
-
         }
-
     }
 
-    public override void OnDisable() {
-
+    public override void OnDisable()
+    {
         base.OnDisable();
 
         RCCP_InputManager.OnStartEngine -= RCCP_InputManager_OnStartEngine;
@@ -922,14 +889,13 @@ public class RCCP_Input : RCCP_Component {
         RCCP_InputManager.OnTrailerDetach -= RCCP_InputManager_OnTrailerDetach;
         RCCP_InputManager.OnRecord -= RCC_InputManager_OnRecord;
         RCCP_InputManager.OnReplay -= RCC_InputManager_OnReplay;
-
     }
 
     /// <summary>
     /// Resets all inputs to 0.
     /// </summary>
-    public void ResetInputs() {
-
+    public void ResetInputs()
+    {
         inputs = new RCCP_Inputs();
 
         throttleInput = 0f;
@@ -939,24 +905,21 @@ public class RCCP_Input : RCCP_Component {
         clutchInput = 0f;
         nosInput = 0f;
         steerInputCounter = 0f;
-
     }
 
-    private void Reset() {
-
+    private void Reset()
+    {
         Keyframe[] ks = new Keyframe[3];
 
         ks[0] = new Keyframe(0f, 1f);
-        ks[0].outTangent = -.0135f;    // -5 units on the y axis for 1 unit on the x axis.
+        ks[0].outTangent = -.0135f; // -5 units on the y axis for 1 unit on the x axis.
 
         ks[1] = new Keyframe(100f, .2f);
-        ks[1].inTangent = -.0015f;    // straight
-        ks[1].outTangent = -.001f;    // straight
+        ks[1].inTangent = -.0015f; // straight
+        ks[1].outTangent = -.001f; // straight
 
         ks[2] = new Keyframe(200f, .15f);
 
         steeringCurve = new AnimationCurve(ks);
-
     }
-
 }
