@@ -141,18 +141,28 @@ public class HR_PathManager : MonoBehaviour {
     /// Gets the angle of the path based on the closest path points.
     /// </summary>
     /// <returns>The angle of the path.</returns>
-    public Vector3 GetPathAngle() {
-
+    public Vector3 GetPathAngle()
+    {
         Transform first = GetFirstClosestPoint();
-        Transform middle = GetMiddleClosestPoint(first);
+        Transform middle = GetNextClosestPoint(first);
 
         if (!first || !middle)
             return Vector3.zero;
 
-        return middle.position - first.position;
-
+        return (middle.position - first.position).normalized;
     }
 
+    
+    private Transform GetNextClosestPoint(Transform current)
+    {
+        int index = closestPathPointsToPlayer.IndexOf(current);
+
+        // Get the next in list if possible
+        if (index >= 0 && index < closestPathPointsToPlayer.Count - 1)
+            return closestPathPointsToPlayer[index + 4];
+
+        return null;
+    }
     /// <summary>
     /// Handles the player spawned event.
     /// </summary>

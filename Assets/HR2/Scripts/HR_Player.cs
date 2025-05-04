@@ -503,24 +503,43 @@ public class HR_Player : MonoBehaviour
         }
 
         RaycastHit frontHit;
-        if (Physics.Raycast(CarController.AeroDynamics.COM.position, transform.forward, out frontHit, 50f))
-        {
-            if (frontHit.collider.gameObject.layer == LayerMask.NameToLayer(Settings.trafficCarsLayer))
+        if (Physics.Raycast(CarController.AeroDynamics.COM.position, (transform.forward), out frontHit, 50f, LayerMask.GetMask(Settings.trafficCarsLayer)) && !frontHit.collider.isTrigger) {
+            Debug.DrawLine(CarController.AeroDynamics.COM.position, frontHit.point, Color.yellow);
+            Transform trafficCar = frontHit.collider.gameObject.transform;
+        
+            if (trafficCar && CarController.Lights && CarController.Lights.highBeamHeadlights)
             {
-                Transform trafficCar = frontHit.collider.gameObject.transform;
-
-                if (trafficCar && CarController.Lights && CarController.Lights.highBeamHeadlights)
+                AiCarContrtoller aiController = trafficCar.GetComponent<AiCarContrtoller>();
+        
+                // If target traffic car doesnt change lane at the moment and also it moves on the same direction to player
+                if (aiController != null && !aiController.isChangingLane && !aiController.oppositeDirection) // **Şerit değiştiriyorsa tekrar çağırma**
                 {
-                    AiCarContrtoller aiController = trafficCar.GetComponent<AiCarContrtoller>();
-
-                    // If target traffic car doesnt change lane at the moment and also it moves on the same direction to player
-                    if (aiController != null && !aiController.isChangingLane && !aiController.oppositeDirection) // **Şerit değiştiriyorsa tekrar çağırma**
-                    {
-                        aiController.ChangeLines(true);
-                    }
+                    aiController.ChangeLines(true);
                 }
             }
         }
+
+        //
+        // if (Physics.Raycast(CarController.AeroDynamics.COM.position, transform.forward, out frontHit, 50f))
+        // {
+        //     Debug.DrawLine(CarController.AeroDynamics.COM.position, frontHit.point, Color.yellow);
+        //
+        //     if (frontHit.collider.gameObject.layer == LayerMask.NameToLayer(Settings.trafficCarsLayer))
+        //     {
+        //         Transform trafficCar = frontHit.collider.gameObject.transform;
+        //
+        //         if (trafficCar && CarController.Lights && CarController.Lights.highBeamHeadlights)
+        //         {
+        //             AiCarContrtoller aiController = trafficCar.GetComponent<AiCarContrtoller>();
+        //
+        //             // If target traffic car doesnt change lane at the moment and also it moves on the same direction to player
+        //             if (aiController != null && !aiController.isChangingLane && !aiController.oppositeDirection) // **Şerit değiştiriyorsa tekrar çağırma**
+        //             {
+        //                 aiController.ChangeLines(true);
+        //             }
+        //         }
+        //     }
+        // }
 
         // Horn and siren.
         if (CarController.Lights && hornSource)

@@ -1,7 +1,7 @@
 //----------------------------------------------
 //                   Highway Racer
 //
-// Copyright © 2014 - 2024 BoneCracker Games
+// Copyright ï¿½ 2014 - 2024 BoneCracker Games
 // http://www.bonecrackergames.com
 //----------------------------------------------
 

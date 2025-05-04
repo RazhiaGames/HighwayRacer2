@@ -7,6 +7,7 @@
 //
 //----------------------------------------------
 
+using System;
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
@@ -212,7 +213,6 @@ public class RCCP_Input : RCCP_Component
         }
 
         steerInputRaw = steerInput;
-
         if (CarController.canControl && HR_PathDirection.Instance)
         {
             angle = HR_CalculateAngle.CalculateAngle(transform.rotation,
@@ -223,7 +223,9 @@ public class RCCP_Input : RCCP_Component
 
         if (!CarController.externalControl)
         {
-        
+            // var closestPoint = HR_PathManager.Instance.GetFirstClosestPoint();
+            // middlePoint = HR_PathManager.Instance.GetMiddleClosestPoint(closestPoint);
+            
             steerInput = (angle * CarController.direction) * 1f;
             steerInput = Mathf.Clamp(steerInput, -1f, 1f);
         }
@@ -231,6 +233,9 @@ public class RCCP_Input : RCCP_Component
         if (!overrideExternalInputs)
             VehicleControlledInputs();
     }
+
+    private Transform middlePoint;
+
 
     private float CalculateAngleBetweenObjects(Quaternion objA, Quaternion objB)
     {
