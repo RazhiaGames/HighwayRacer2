@@ -1,7 +1,7 @@
 //----------------------------------------------
 //        Realistic Car Controller Pro
 //
-// Copyright © 2014 - 2024 BoneCracker Games
+// Copyright Â© 2014 - 2024 BoneCracker Games
 // https://www.bonecrackergames.com
 // Ekrem Bugra Ozdoganlar
 //

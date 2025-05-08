@@ -1093,11 +1093,11 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rendering.LightTransport.Runtime">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
@@ -1114,9 +1114,17 @@
       <Project>{2d5e941a-bab3-45e5-11aa-9bea1137ea9e}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{fb7bcd5d-1a6e-d01d-217a-332d271ec7d7}</Project>
+      <Name>LeanCommon</Name>
+    </ProjectReference>
     <ProjectReference Include="UniTask.Linq.csproj">
       <Project>{9da0d29d-7c76-ef22-ba51-e18f36e3ee78}</Project>
       <Name>UniTask.Linq</Name>
+    </ProjectReference>
+    <ProjectReference Include="CW.Common.csproj">
+      <Project>{3ce35748-de11-5265-a372-6d84314ca5fa}</Project>
+      <Name>CW.Common</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.Modules.Unity.Addressables.csproj">
       <Project>{16672ca0-3593-ac33-e3db-c8d6ad3b9aa8}</Project>
@@ -1146,6 +1154,10 @@
       <Project>{d0bb40e4-7ac5-05fa-7877-37c106121755}</Project>
       <Name>UniTask.Addressables</Name>
     </ProjectReference>
+    <ProjectReference Include="LeanTouchPlus.csproj">
+      <Project>{05664467-fff5-56a9-6ca9-0b7f779eb93f}</Project>
+      <Name>LeanTouchPlus</Name>
+    </ProjectReference>
     <ProjectReference Include="LeTai.TrueShadow.Editor.csproj">
       <Project>{0767149b-a9eb-7dab-ac80-cb2973a4728d}</Project>
       <Name>LeTai.TrueShadow.Editor</Name>
@@ -1157,6 +1169,10 @@
     <ProjectReference Include="VTabs.csproj">
       <Project>{fae8c915-59ca-51f8-6355-449ebf739ac7}</Project>
       <Name>VTabs</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanCommonPlus.csproj">
+      <Project>{2d3a536a-8f32-75ed-33e7-97a07d511c44}</Project>
+      <Name>LeanCommonPlus</Name>
     </ProjectReference>
     <ProjectReference Include="RTLTMPro.csproj">
       <Project>{61fb4673-50e0-44a4-44aa-b5bdb6783bd5}</Project>
@@ -1173,6 +1189,10 @@
     <ProjectReference Include="VFolders.csproj">
       <Project>{8731b0f9-cebd-6b92-1b7a-5dec9ceeae30}</Project>
       <Name>VFolders</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTouch.csproj">
+      <Project>{64f75ae9-ee1f-1005-9547-71590f3c3e8e}</Project>
+      <Name>LeanTouch</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
