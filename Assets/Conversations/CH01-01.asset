@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37e1c9dc8bd0474bbb989f371be3705, type: 3}
+  m_Name: CH01-01
+  m_EditorClassIdentifier: 
+  dialogues:
+  - characterProfile: {fileID: 11400000, guid: 66998a25463585743bb0778db8b961f1, type: 2}
+    sentence:
+      m_TableReference:
+        m_TableCollectionName: GUID:9156e6607c718834288d9e7b64069701
+      m_TableEntryReference:
+        m_KeyId: 125773537284
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 83b0709bd8f5ed04688e911228b2644e, type: 2}
+          m_TargetAssemblyTypeName: IntChannelEventSO, Assembly-CSharp
+          m_MethodName: RaiseBgEvent
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - characterProfile: {fileID: 11400000, guid: 66998a25463585743bb0778db8b961f1, type: 2}
+    sentence:
+      m_TableReference:
+        m_TableCollectionName: GUID:9156e6607c718834288d9e7b64069701
+      m_TableEntryReference:
+        m_KeyId: 125773537285
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 83b0709bd8f5ed04688e911228b2644e, type: 2}
+          m_TargetAssemblyTypeName: IntChannelEventSO, Assembly-CSharp
+          m_MethodName: RaiseBgEvent
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - characterProfile: {fileID: 11400000, guid: 66998a25463585743bb0778db8b961f1, type: 2}
+    sentence:
+      m_TableReference:
+        m_TableCollectionName: GUID:9156e6607c718834288d9e7b64069701
+      m_TableEntryReference:
+        m_KeyId: 125773537292
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 83b0709bd8f5ed04688e911228b2644e, type: 2}
+          m_TargetAssemblyTypeName: IntChannelEventSO, Assembly-CSharp
+          m_MethodName: RaiseBgEvent
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - characterProfile: {fileID: 11400000, guid: 66998a25463585743bb0778db8b961f1, type: 2}
+    sentence:
+      m_TableReference:
+        m_TableCollectionName: GUID:9156e6607c718834288d9e7b64069701
+      m_TableEntryReference:
+        m_KeyId: 125773537286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 83b0709bd8f5ed04688e911228b2644e, type: 2}
+          m_TargetAssemblyTypeName: IntChannelEventSO, Assembly-CSharp
+          m_MethodName: RaiseBgEvent
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 3
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - characterProfile: {fileID: 11400000, guid: 66998a25463585743bb0778db8b961f1, type: 2}
+    sentence:
+      m_TableReference:
+        m_TableCollectionName: GUID:9156e6607c718834288d9e7b64069701
+      m_TableEntryReference:
+        m_KeyId: 125773537283
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 83b0709bd8f5ed04688e911228b2644e, type: 2}
+          m_TargetAssemblyTypeName: IntChannelEventSO, Assembly-CSharp
+          m_MethodName: RaiseBgEvent
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 4
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - characterProfile: {fileID: 11400000, guid: 66998a25463585743bb0778db8b961f1, type: 2}
+    sentence:
+      m_TableReference:
+        m_TableCollectionName: GUID:9156e6607c718834288d9e7b64069701
+      m_TableEntryReference:
+        m_KeyId: 125773537287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 83b0709bd8f5ed04688e911228b2644e, type: 2}
+          m_TargetAssemblyTypeName: IntChannelEventSO, Assembly-CSharp
+          m_MethodName: RaiseBgEvent
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - characterProfile: {fileID: 11400000, guid: 66998a25463585743bb0778db8b961f1, type: 2}
+    sentence:
+      m_TableReference:
+        m_TableCollectionName: GUID:9156e6607c718834288d9e7b64069701
+      m_TableEntryReference:
+        m_KeyId: 125773537288
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    onExecute:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterProfile: {fileID: 11400000, guid: 012ffb0e51fe9e64a9509d1f369590f0, type: 2}
+    sentence:
+      m_TableReference:
+        m_TableCollectionName: GUID:9156e6607c718834288d9e7b64069701
+      m_TableEntryReference:
+        m_KeyId: 125773537289
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 83b0709bd8f5ed04688e911228b2644e, type: 2}
+          m_TargetAssemblyTypeName: IntChannelEventSO, Assembly-CSharp
+          m_MethodName: RaiseBgEvent
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 6
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - characterProfile: {fileID: 11400000, guid: 4b7b67d3ea474b34c87e0f5fec138463, type: 2}
+    sentence:
+      m_TableReference:
+        m_TableCollectionName: GUID:9156e6607c718834288d9e7b64069701
+      m_TableEntryReference:
+        m_KeyId: 125773537290
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    onExecute:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterProfile: {fileID: 11400000, guid: 4b7b67d3ea474b34c87e0f5fec138463, type: 2}
+    sentence:
+      m_TableReference:
+        m_TableCollectionName: GUID:9156e6607c718834288d9e7b64069701
+      m_TableEntryReference:
+        m_KeyId: 125773537291
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    onExecute:
+      m_PersistentCalls:
+        m_Calls: []
+  isPrefabBg: 0
+  BackGroundSprites:
+  - {fileID: 21300000, guid: 28a3ed5a056d1453c986ef6cc60255ff, type: 3}
+  - {fileID: 21300000, guid: 82adf22bb7c8b4e4eafe1528fce1e853, type: 3}
+  - {fileID: 21300000, guid: 7cadf8724b14042d489ab39bbd0d6818, type: 3}
+  - {fileID: 21300000, guid: ea1c26766293e4cdeb4935e62e1538cd, type: 3}
+  - {fileID: 21300000, guid: 2f80921ef86b442b5b72436213013312, type: 3}
+  - {fileID: 21300000, guid: fa1ca5dfdf6264bca86e5a4fd5c4a744, type: 3}
+  - {fileID: 21300000, guid: d87ade3c5ed5e427daa239e7e7e4dcad, type: 3}
+  references:
+    version: 2
+    RefIds: []

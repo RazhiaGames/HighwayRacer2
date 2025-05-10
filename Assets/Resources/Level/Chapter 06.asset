@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f97c144b177429d41aba0b1cf0db6d71, type: 3}
+  m_Name: Chapter 06
+  m_EditorClassIdentifier: 
+  chapterTotalScore: 1800000
+  levelsConfigs:
+  - {fileID: 11400000, guid: 0d08d37d2058e45d98cd1e9c8ea290c1, type: 2}
+  - {fileID: 11400000, guid: 9ef3de95ac73e4f7fb1d6a6bd5ce19a7, type: 2}
+  - {fileID: 11400000, guid: fd77a15fb4ded43fb851961f726ba375, type: 2}
+  - {fileID: 11400000, guid: edb4e50a37801479eb78668fe87923d0, type: 2}
+  - {fileID: 11400000, guid: 7bcb29246ad654c7497eb7a11da2f59c, type: 2}
+  - {fileID: 11400000, guid: 00c5683bcdd80ae41a5cba5df4416fbd, type: 2}
+  - {fileID: 11400000, guid: a41b362d34a544ca68f07afac6e5479a, type: 2}
+  - {fileID: 11400000, guid: ed1bae14143fe4b80902ae10ea90ef19, type: 2}
+  - {fileID: 11400000, guid: f03a9f3b583274b99b045c5af8501e04, type: 2}
+  backGroundSprite: {fileID: 21300000, guid: 454bca472ee9f4c7387f3a1d738c8ade, type: 3}
+  chapterIndex: 5
+  randomLevelConfig: {fileID: 11400000, guid: b4c294549c9829f4b83ea4873de679ca, type: 2}

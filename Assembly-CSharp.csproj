@@ -50,41 +50,66 @@
     <Compile Include="Assets\Ash Assets\Ash Vehicle AI\AI Scripts\SkidMarksAi.cs" />
     <Compile Include="Assets\Scripts\DesignPatterns\SingletonScriptableObject.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\MapScripts\StaticMap\MapSwitcher.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Slider\SliderManager.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_Controller_Type.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Visual_Dashboard.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Notification\NotificationManager.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_WheelBlur.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Manager\RCCP_Singleton.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerSwitch.cs" />
     <Compile Include="Assets\Scripts\DesignPatterns\Singleton.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Light.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Editors\RCCP_Installation.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_Joystick.cs" />
+    <Compile Include="Assets\SweetSugar\Scripts\MapScripts\MapManager.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Inputs\RCCP_MobileInputs.cs" />
     <Compile Include="Assets\HR2\Scripts\Others\HR_EngineSmoke.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Context Menu\ContextMenuSubMenu.cs" />
     <Compile Include="Assets\Ash Assets\Ash Vehicle AI\AI Scripts\AiCarContrtoller.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Toggle\CustomToggle.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_Wheel.cs" />
     <Compile Include="Assets\HR2\Scripts\Roads and Path\HR_WaypointAdjuster.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_SetBehaviorType.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Dropdown\DropdownMultiSelect.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerButtonEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Slider\SliderInput.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Context Menu\ContextMenuManager.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UISliderTextReader.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerProgressBarLoopEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Tooltip\TooltipContent.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerHSelector.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Rendering\Ripple.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\RCCP_VehicleUpgrade_Engine.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\MapScripts\WaypointsMover.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Layout Group\RadialLayoutGroupEditor.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\Integrations\DefineHidder.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Particles.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerProgressBar.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Demo\RCCP_Telemetry.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_RebindInput.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Icon\AnimatedIconHandler.cs" />
     <Compile Include="Assets\HR2\Scripts\Camera\HR_CameraSettingsApplier.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Inputs\RCCP_RebindSaveLoad.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Damage.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Modal Window\ModalWindowManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Demo\InputSystemChecker.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\MapScripts\LevelsMap.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_DecalSetLocation.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Input.cs" />
+    <Compile Include="Assets\MapCameraManager.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_RemoveItem.cs" />
     <Compile Include="Assets\MicroVerse-Extras\Road Textures\Demo\Scripts\Prefab Placement\PrefabPlacement.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Editor Handlers\MUIPEditorHandler.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Window\WindowManagerButton.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Slider\RadialSlider.cs" />
     <Compile Include="Assets\Ash Assets\Ash Vehicle AI\AI Scripts\waypointPainter.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Inputs\RCCP_GamepadIcons.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\RCCP_VehicleUpgrade_Decal.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Demo\RCCP_GasStation.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Switch\SwitchManager.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_FuelTank.cs" />
     <Compile Include="Assets\HR2\Scripts\Managers\HR_MainMenuManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Modal Window\ModalWindowManagerEditor.cs" />
     <Compile Include="Assets\Ash Assets\Ash Vehicle AI\AI Scripts\VehicleEditorAI.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Base\RCCP_UIComponent.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Camera\RCCP_CameraCarSelection.cs" />
@@ -98,8 +123,10 @@
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Customization\RCCP_CustomizationLoadout.cs" />
     <Compile Include="Assets\Ash Assets\Common Scripts\GetReference.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_PurchaseItem.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerSlider.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Engine.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\RCCP_VehicleUpgrade_Speed.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Charts\PieChartEditor.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_OverrideVehicleExample.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_Purchasable.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Demo\RCCP_CharacterController.cs" />
@@ -112,77 +139,108 @@
     <Compile Include="Assets\HR2\Scripts\Others\HR_RandomizeColorOnEnable.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Demo\RCCP_Prop.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Camera\RCCP_FOVForCinematicCamera.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Icon\IconLibraryEditor.cs" />
     <Compile Include="Assets\HR2\Scripts\Others\HR_BlurredRoadShader.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\AI\RCCP_Waypoint.cs" />
+    <Compile Include="Assets\Scripts\UI\View.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Switch\SwitchManagerEditor.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\RCCP_PoliceLights.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Core\MUIPInternalTools.cs" />
+    <Compile Include="Assets\Scripts\Libs\Common.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Scriptable Objects\RCCP_ChangableWheels.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Axle.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_MainmenuPanel.cs" />
     <Compile Include="Assets\HR2\Scripts\Misc\StaticDebugRunner.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\GUI\GameFieldAnim.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Demo\DemoElementSway.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_CustomizationBackButton.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Slider\RadialSliderEditor.cs" />
     <Compile Include="Assets\HR2\Scripts\Misc\HR_BoundsExtension.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Camera\RCCP_CinematicCamera.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Dropdown\CustomDropdown.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\Managers\RCCP_VehicleUpgrade_WheelManager.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\GUI\Avatar\PlayerAvatar.cs" />
     <Compile Include="Assets\EasyRoads3D\Scripts\ERVegetationStudio.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\ListView\ListViewRow.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Demo\RCCP_CustomizationStation.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Slider\RangeMinSlider.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\AI\RCCP_AIWaypointsContainer.cs" />
+    <Compile Include="Assets\Scripts\UI\Views\MapView.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_CreditsText.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_Informer.cs" />
     <Compile Include="Assets\HR2\Scripts\Image Effects\HRLightRaysEffect.cs" />
     <Compile Include="Assets\Scripts\GD.cs" />
+    <Compile Include="Assets\Scripts\Utils\Debugger.cs" />
     <Compile Include="Assets\HR2\Scripts\Misc\HR_CreateAudioSource.cs" />
     <Compile Include="Assets\HR2\Scripts\Misc\WaitTimes.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Event\RCCP_Events.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Base\RCCP_GenericComponent.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Demo\RCCP_CarSelectionExample.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_ButtonSound.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerCustom.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\ListView\ListViewEditor.cs" />
     <Compile Include="Assets\HR2\Scripts\Camera\HR_Camera.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerModalWindow.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Camera\RCCP_FixedCamera.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_ColorPickerBySliders.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Scriptable Objects\RCCP_GroundMaterials.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Horizontal Selector\HorizontalSelector.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Others\RCCP_DamageData.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_TrailerAttacher.cs" />
     <Compile Include="Assets\LeanDragCamera.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Dropdown\DropdownMultiSelectEditor.cs" />
     <Compile Include="Assets\HR2\Scripts\Roads and Path\HR_CurvedRoad.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\MapScripts\PlayerPrefsMapProgressManager.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Others\RCCP_TruckTrailer.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Exhausts.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\MapScripts\MapLevel.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_PurchaseUpgrade.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerToggle.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Nos.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Context Menu\ContextMenuContent.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Input Field\CustomInputField.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Differential.cs" />
     <Compile Include="Assets\Ash Assets\Ash Vehicle AI\AI Scripts\WaypointProgressTracker.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_TextPopperOnTextChange.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\RCCP.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\Managers\RCCP_VehicleUpgrade_UpgradeManager.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Demo\RCCP_SpikeStrip.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Tooltip\TooltipManagerEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Slider\RangeMaxSlider.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\RCCP_VehicleUpgrade_NOS.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_Horn.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Rendering\UIGradientEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Progress Bar\PBFilled.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\MapScripts\TranslationType.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Base\RCCP_Component.cs" />
+    <Compile Include="Assets\Samples\2D SpriteShape\10.1.0\Sprite Shape Samples\Scripts\SpriteShapeColored.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_DashboardSlider.cs" />
     <Compile Include="Assets\HR2\Scripts\Misc\HR_DisableBeforePlay.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Scriptable Objects\RCCP_Settings.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\MapScripts\CrosssceneData.cs" />
     <Compile Include="Assets\HR2\Scripts\Roads and Path\HR_LaneManager.cs" />
-    <Compile Include="Assets\SweetSugar\Scripts\MapScripts\MapCamera.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\ListView\ListViewItem.cs" />
     <Compile Include="Assets\HR2\Scripts\Others\HR_ResetDecal.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_DynamicScoreDisplayer.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Camera\RCCP_Camera.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\RCCP_VehicleUpgrade_Spoiler.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\Integrations\InviteManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerDropdown.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerButton.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Editors\RCCP_Joint.cs" />
     <Compile Include="Assets\Ash Assets\Ash Vehicle AI\AI Scripts\RandomTargetPosition.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UIManager.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_Neon.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Customization\RCCP_CustomizationDemo.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Icon\IconLibrary.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_CreditsText.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_TextHighlighter.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerTooltip.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Tooltip\TooltipManager.cs" />
     <Compile Include="Assets\HR2\Scripts\Misc\PlayerPrefsX.cs" />
     <Compile Include="Assets\HR2\Scripts\Roads and Path\HR_SetLightmapsManually.cs" />
     <Compile Include="Assets\Ash Assets\Welcome-AshDev\AshDev_WelcomeScreen.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Context Menu\ContextMenuContentMobile.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_OtherAddons.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_MobileDrag.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Base\RCCP_UpgradeComponent.cs" />
@@ -191,15 +249,18 @@
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_InfoDisplayer.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\GUI\IdleCircleMapEffect.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Interface\IRCCP_Component.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Demo\LaunchURL.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\MapScripts\LinqUtils.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Inputs\RCCP_Inputs.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Interface\IRCCP_LoadoutComponent.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Charts\PieChart.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Axles.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Demo\RCCP_SpeedLimiter.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_QualityButton.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Demo\RCCP_Demo.cs" />
     <Compile Include="Assets\EasyRoads3D\Scripts\runtimeScript.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_DeleteCustomization.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Demo\DemoListShadow.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Settings.cs" />
     <Compile Include="Assets\HR2\Scripts\Roads and Path\HR_PathManager.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\RCCP_VehicleUpgrade_Brake.cs" />
@@ -210,46 +271,61 @@
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Customization\RCCP_CustomizationTrigger.cs" />
     <Compile Include="Assets\HR2\Scripts\Scriptable\HR_Settings.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\MapScripts\StaticMap\BackgroundsForStaticMap.cs" />
+    <Compile Include="Assets\RacingLevelConfig.cs" />
     <Compile Include="Assets\HR2\Scripts\Camera\HR_Camera_Showroom.cs" />
     <Compile Include="Assets\HR2\Scripts\Traffic\HR_TrafficManager.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Scriptable Objects\RCCP_DemoVehicles.cs" />
     <Compile Include="Assets\Ash Assets\Ash Vehicle AI\AI Scripts\ReverseWhenStuck.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\RCCP_VehicleUpgrade_Neon.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Notification\NotificationManagerEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Demo\DemoElementSwayParent.cs" />
     <Compile Include="Assets\HR2\Scripts\Roads and Path\HR_PathDirection.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Demo\RCCP_RepairStation.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_WheelCollider.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_AI.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Demo\RCCP_Teleporter.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_CountAnimation.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\ListView\ListView.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\MapScripts\LevelReachedEventArgs.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerInputField.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Others\RCCP_LightBox.cs" />
     <Compile Include="Assets\HR2\Scripts\Roads and Path\HR_FixFloatingOrigin.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManager.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\Managers\RCCP_VehicleUpgrade_SirenManager.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_CountDown.cs" />
     <Compile Include="Assets\HR2\Scripts\Scriptable\HR_PlayerCars.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerDropdownItem.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Stability.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\MapScripts\TestLevelGUI.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Audio.cs" />
     <Compile Include="Assets\HR2\Scripts\Misc\HR_Version.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Icon\IconManagerEditor.cs" />
     <Compile Include="Assets\HR2\Scripts\Misc\StaticDebugTool.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_Upgrade.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Clutch.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_RebindInputReset.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerScrollbar.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerWindowManager.cs" />
     <Compile Include="Assets\HR2\Scripts\Misc\HR_Singleton.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Base\RCCP_MainComponent.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Notification\NotificationStacking.cs" />
     <Compile Include="Assets\Ash Assets\Ash Vehicle AI\AI Scripts\WaypointCircuit.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_PurchaseCustomization.cs" />
     <Compile Include="Assets\HR2\Scripts\Others\HR_LensFlare.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Gearbox.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Progress Bar\ProgressBarEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Dropdown\CustomDropdownEditor.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Scriptable Objects\RCCP_DemoScenes.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\RCCP_VehicleUpgrade_Siren.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Editors\RCCP_GetAssetPath.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Slider\RangeSlider.cs" />
     <Compile Include="Assets\HR2\Scripts\HR_API.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_ButtonSlideAnimation.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Demo\RCCP_DemoAIO.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_Drag.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Audio\RCCP_AudioSource.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerProgressBarLoop.cs" />
     <Compile Include="Assets\HR2\Scripts\Traffic\HR_TrafficCar.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_KeyEnter.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Editors\RCCP_Version.cs" />
@@ -265,7 +341,9 @@
     <Compile Include="Assets\HR2\Scripts\Others\HR_LightBox.cs" />
     <Compile Include="Assets\HR2\Scripts\Misc\HR_GetBounds.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Base\RCCP_TryGetComponentInChildren.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Context Menu\ContextMenuContentEditor.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_AeroDynamics.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerEditor.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_MobileDrag.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\RCCP_VehicleUpgrade_Handling.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_SteeringWheelController.cs" />
@@ -274,11 +352,15 @@
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Others\RCCP_Skidmarks.cs" />
     <Compile Include="Assets\HR2\Scripts\Misc\HR_Events.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\RCCP_VehicleUpgrade_Paint.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Window\WindowDragger.cs" />
+    <Compile Include="Assets\Scripts\GS.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UIOptionsManager.cs" />
     <Compile Include="Assets\Ash Assets\Ash Vehicle AI\AI Scripts\Sensors.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Recorder.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Context Menu\ContextMenuManagerEditor.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\Managers\RCCP_VehicleUpgrade_PaintManager.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\MapScripts\SplineCurve.cs" />
+    <Compile Include="Assets\Scripts\UI\ButtonElement.cs" />
     <Compile Include="Assets\Ash Assets\Common Scripts\GravityCustom.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_Purchasable_ForUpgrades.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\MapScripts\StarsType.cs" />
@@ -287,15 +369,22 @@
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Others\RCCP_Caliper.cs" />
     <Compile Include="Assets\HR2\Scripts\Others\HR_Lightshaft.cs" />
     <Compile Include="Assets\HR2\Scripts\Misc\HR_CartItem.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Progress Bar\ProgressBar.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_GameplayPanel.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Scriptable Objects\RCCP_DemoContent.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\GUI\Avatar\AvatarManager.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_GameOverPanel.cs" />
     <Compile Include="Assets\HR2\Scripts\Managers\HR_GamePlayManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Layout Group\RadialLayoutGroup.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerSliderEditor.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_HoodCamera.cs" />
+    <Compile Include="Assets\Scripts\UI\Utils\MonoUtils.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Inputs\RCCP_InputManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerEditor.cs" />
     <Compile Include="Assets\Ash Assets\Common Scripts\AshSuspension.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_OptionsManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Slider\SliderManagerEditor.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Customizer.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Demo\RCCP_CrashShredder.cs" />
     <Compile Include="Assets\HR2\Scripts\Managers\HR_SoundtrackManager.cs" />
@@ -303,10 +392,14 @@
     <Compile Include="Assets\SweetSugar\Scripts\GUI\CanvasHelper.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\AI\RCCP_AIBrakeZone.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\AI\RCCP_AIBrakeZonesContainer.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerPieChart.cs" />
+    <Compile Include="Assets\CrystalFramework\Utility\SafeArea.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Exterior_Cameras.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_BodyTilt.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerContextMenu.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_Color.cs" />
     <Compile Include="Assets\HR2\Scripts\Others\HR_Bomb.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerAnimatedIcon.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_WheelCamera.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Scriptable Objects\RCCP_DemoMaterials.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Editors\RCCP_GetBounds.cs" />
@@ -314,34 +407,43 @@
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Others\RCCP_TransportOnTrigger.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Demo\RCCP_CrashPress.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_ButtonTextHighlighter.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Icon\IconManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Layout Group\LayoutGroupFix.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Manager\RCCP_SceneManager.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_CartItem.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Camera\RCCP_ShowroomCamera.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Lod.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Editors\RCCP_PlayerPrefsX.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Rendering\UIGradient.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\Managers\RCCP_VehicleUpgrade_DecalManager.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Scriptable Objects\RCCP_CustomizationSetups.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_Fade.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_DetachablePart.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_SetAudio.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Horizontal Selector\HorizontalSelectorEditor.cs" />
     <Compile Include="Assets\Ash Assets\Ash Vehicle AI\AI Scripts\ReferencesAI.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\MapScripts\StaticMap\StaticMapPlay.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Lights.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\MapScripts\IMapProgressManager.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\MapScripts\DemoButton.cs" />
+    <Compile Include="Assets\Scripts\UI\UIManager.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\Monetization\VideoButtonMap.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_CanvasGroupFader.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Window\WindowManager.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_SetQuality.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Exhaust.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Others\RCCP_ParentConst.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_Customizer.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Window\WindowManagerEditor.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_Siren.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerNotification.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Manager\RCCP_SkidmarksManager.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_Decal.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_SetGearbox.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_SliderHighlighter.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_SceneSelector.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_CustomizationSlider.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Tools\ElementTabbing.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\HR2\Realistic Car Controller Pro\Font\Font License.txt" />
@@ -352,6 +454,7 @@
     <None Include="Assets\EasyRoads3D\shaders\ER Road.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\EasyRoads3D\Resources\custom prefabs\_custom prefabs.txt" />
+    <None Include="Assets\City Builder Template\Shaders\TextMeshShader.shader" />
     <None Include="Assets\EasyRoads3D\prefab meshes\_custom prefabs.txt" />
     <None Include="Assets\EasyRoads3D\shaders\ER Road Transparency.shader" />
     <None Include="Assets\HR2\Shaders\HR_LightRays.shader" />
@@ -364,6 +467,7 @@
     <None Include="Assets\HR2\Realistic Car Controller Pro\Fixed Meshes\Fixed Meshes.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\MicroVerse-Extras\Road Textures\package.json" />
+    <None Include="Assets\Modern UI Pack\Read Me.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\EasyRoads3D\shaders\ER Surface.shader" />
     <None Include="Assets\HR2\Realistic Car Controller Pro\License Agreement.txt" />
@@ -384,6 +488,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\EasyRoads3D\shaders\Legacy\EasyRoads3D - Unity 2018 Standard.shader" />
     <None Include="Assets\Res\Cars\AE_CARS\SAMOCHODY\Car_23\Skybox\readme.txt" />
+    <None Include="Assets\Art\Shaders\UI Masked.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\MicroVerse-Extras\Road Textures\Demo\Scripts\readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
@@ -1166,6 +1271,9 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>E:\Applications\UnityEditors\Unity 6000.1.0f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
@@ -1187,6 +1295,12 @@
     <Reference Include="Unity.AI.Navigation">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Common.Path.Editor">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Recorder">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
     </Reference>
@@ -1198,6 +1312,9 @@
     </Reference>
     <Reference Include="Unity.ResourceManager">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
@@ -1235,6 +1352,9 @@
     <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Bindings.OpenImageIO.Editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.Bindings.OpenImageIO.Editor.dll</HintPath>
     </Reference>
@@ -1259,6 +1379,9 @@
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
     </Reference>
@@ -1271,26 +1394,29 @@
     <Reference Include="Unity.Profiling.Core">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Multiplayer.Center.Common">
-      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.AI.Navigation.Updater">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Center.Common">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
@@ -1316,8 +1442,14 @@
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder.Editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
@@ -1345,9 +1477,6 @@
     </Reference>
     <Reference Include="Unity.InputSystem">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
-      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

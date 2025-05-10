@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdac88fa1f62b9045b2cd91e971876fa, type: 3}
+  m_Name: Chp06_08
+  m_EditorClassIdentifier: 
+  hasClue: 0
+  clueNumber: 0
+  clueSprite: {fileID: 0}
+  clueName: 
+  dialoguesBeforeLevel: []
+  dialoguesAfterLevel: []
+  hiddenImagePrefab: {fileID: 3492950017627329953, guid: f00c32b31f7374937bd82bb819709734, type: 3}
+  defaultHintNegativeScore: 0

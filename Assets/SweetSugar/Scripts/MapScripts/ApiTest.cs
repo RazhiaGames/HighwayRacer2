@@ -185,11 +185,6 @@ namespace SweetSugar.Scripts.MapScripts
 
         private void OnLevelSelected(object sender, LevelReachedEventArgs e)
         {
-            if (LevelsMap.GetIsConfirmationEnabled())
-            {
-                SelectedLevelNumber = e.Number;
-                // ConfirmationView.SetActive(true);
-            }
         }
 
         private void OnNoButtonClick(object sender, EventArgs e)

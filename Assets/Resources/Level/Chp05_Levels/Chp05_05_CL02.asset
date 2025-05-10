@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdac88fa1f62b9045b2cd91e971876fa, type: 3}
+  m_Name: Chp05_05_CL02
+  m_EditorClassIdentifier: 
+  hasClue: 1
+  chapterClueIndex: 1
+  bookClueIndex: 8
+  clueSprite: {fileID: 21300000, guid: 2f2d94f67cf084b3bb10bbab554d0e32, type: 3}
+  clueName:
+    m_TableReference:
+      m_TableCollectionName: GUID:58b0a2c4905240940837bcf650bc6589
+    m_TableEntryReference:
+      m_KeyId: 6895323938021376
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  conversationsBeforeLevel: []
+  conversationsAfterLevel:
+  - {fileID: 11400000, guid: 5e17783103bfe904c9c15a6b090afdb4, type: 2}
+  hiddenImagePrefab: {fileID: 4338303843567457530, guid: 9222eb9fa335e48f1aabbf42b8c37658, type: 3}
+  defaultHintNegativeScore: 0
+  references:
+    version: 2
+    RefIds: []

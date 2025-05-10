@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52ce6209ffab77b459c411ceddb48cdb, type: 3}
+  m_Name: Chp06_GateLevelConfig
+  m_EditorClassIdentifier: 
+  hasClue: 0
+  chapterClueIndex: 0
+  bookClueIndex: 11
+  clueSprite: {fileID: 21300000, guid: 9674d5da11a264fc89774d7d77850166, type: 3}
+  clueName: "\u0633\u0627\u0631\u0627 \u0645\u06CC\u062F\u0648\u0646\u0647"
+  conversationsBeforeLevel:
+  - {fileID: 11400000, guid: c4a5a4c715542f240ab604aca29e3264, type: 2}
+  - {fileID: 11400000, guid: 358d64dc58a2b744f980e91179c317f8, type: 2}
+  conversationsAfterLevel:
+  - {fileID: 11400000, guid: 63b360cfda753444b8d268efd8fc37f5, type: 2}
+  - {fileID: 11400000, guid: 48bcda0c749408a49a752f3bf907756f, type: 2}
+  hiddenImagePrefab: {fileID: 2291186474048626980, guid: ed2a15e1805fe8349a34a42ec057ff91, type: 3}
+  defaultItemScore: 0
+  defaultHintNegativeScore: 0
+  dialogues:
+  - m_TableReference:
+      m_TableCollectionName: GUID:9156e6607c718834288d9e7b64069701
+    m_TableEntryReference:
+      m_KeyId: 2852862144012288
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:9156e6607c718834288d9e7b64069701
+    m_TableEntryReference:
+      m_KeyId: 2853065957826560
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

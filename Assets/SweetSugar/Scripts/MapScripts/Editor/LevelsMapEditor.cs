@@ -219,7 +219,6 @@ namespace SweetSugar.Scripts.MapScripts.Editor
 					_levelsMap.IsClickEnabled = false;
 					EditorUtility.SetDirty (_levelsMap);
 				}
-				DrawConfirmationSettings ();
 			} else {
 				if (GUILayout.Button ("Enable levels click/tap")) {
 					_levelsMap.IsClickEnabled = true;
@@ -228,29 +227,7 @@ namespace SweetSugar.Scripts.MapScripts.Editor
 			}
 		}
 
-		private void DrawConfirmationSettings () {
-			GUILayout.BeginVertical ("Box");
-			string helpString = "Level click/tap enabled.\n";
 
-			if (_levelsMap.IsConfirmationEnabled) {
-				helpString +=
-					"Confirmation enabled: Click/tap level on map and catch 'LevelsMap.LevelSelected' event. After confirmation call 'LevelsMap.GoToLevel' method.";
-				GUILayout.Box (helpString);
-				if (GUILayout.Button ("Disable confirmation")) {
-					_levelsMap.IsConfirmationEnabled = false;
-					EditorUtility.SetDirty (_levelsMap);
-				}
-			} else {
-				helpString += "Confirmation disabled: Click/tap level on map for character moving to level.";
-				GUILayout.Box (helpString);
-				if (GUILayout.Button ("Enable confirmation")) {
-					_levelsMap.IsConfirmationEnabled = true;
-					EditorUtility.SetDirty (_levelsMap);
-				}
-			}
-
-			GUILayout.EndVertical ();
-		}
 
 		#endregion
 	}

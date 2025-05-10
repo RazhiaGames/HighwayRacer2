@@ -1,0 +1,1116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Book01-HO Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Book01-HO
+  m_TableCollectionNameGuidString: 58b0a2c4905240940837bcf650bc6589
+  m_Entries:
+  - m_Id: 2451452252381184
+    m_Key: Chapter01-Bee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452260769792
+    m_Key: Chapter01-Carrot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452260769793
+    m_Key: Chapter01-Ice Cream
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452269158400
+    m_Key: Chapter01-Pepper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452273352704
+    m_Key: Chapter01-Star
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452273352705
+    m_Key: Chapter01-Newspaper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452281741312
+    m_Key: Chapter01-Tissue paper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452281741313
+    m_Key: Chapter01-Oil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452285935616
+    m_Key: Chapter01-Bag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452285935617
+    m_Key: Chapter01-Bird
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452294324224
+    m_Key: Chapter01-Hamburger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452298518528
+    m_Key: Chapter01-Grater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452298518529
+    m_Key: Chapter01-Sausage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452306907136
+    m_Key: Chapter01-Photo frame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452306907137
+    m_Key: Chapter01-Broom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452311101440
+    m_Key: Chapter01-Cookie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452319490048
+    m_Key: Chapter01-Coffee bean
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452323684352
+    m_Key: Chapter01-Hat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452323684353
+    m_Key: Chapter01-Spatula
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452327878656
+    m_Key: Chapter01-Dragonfly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452332072960
+    m_Key: Chapter01-Milk bottle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452336267264
+    m_Key: Chapter01-Lemon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452340461568
+    m_Key: Chapter01-Cinnamon stick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452340461569
+    m_Key: Chapter01-Jam jar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452344655872
+    m_Key: Chapter01-Banknote
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452353044480
+    m_Key: Chapter01-Grapes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452353044481
+    m_Key: Chapter01-Paper bag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452357238784
+    m_Key: Chapter01-Butter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452361433088
+    m_Key: Chapter01-Cheese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452365627392
+    m_Key: Chapter01-Cocoa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452369821696
+    m_Key: Chapter01-Cherry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452374016000
+    m_Key: Chapter01-Pasta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452378210304
+    m_Key: Chapter01-Knife
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452382404608
+    m_Key: Chapter01-Orange juice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452382404609
+    m_Key: Chapter01-Spoon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452382404610
+    m_Key: Chapter01-Scarf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452390793216
+    m_Key: Chapter01-Fork
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452394987520
+    m_Key: Chapter01-Banana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452399181824
+    m_Key: Chapter01-Garlic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452403376128
+    m_Key: Chapter01-Bread
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2451452407570432
+    m_Key: Chapter01-Book
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868747726848
+    m_Key: Chapter02-Chess Piece
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868802252800
+    m_Key: Chapter02-Camera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868810641408
+    m_Key: Chapter02-Hourglass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868810641409
+    m_Key: Chapter02-Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868814835712
+    m_Key: Chapter02-Glasses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868819030016
+    m_Key: Chapter02-Bracelet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868827418624
+    m_Key: Chapter02-Cat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868831612928
+    m_Key: Chapter02-Shoe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868831612929
+    m_Key: Chapter02-Scarf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868835807232
+    m_Key: Chapter02-Ship
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868844195840
+    m_Key: Chapter02-Golf Bag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868844195841
+    m_Key: Chapter02-Perfume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868848390144
+    m_Key: Chapter02-Plate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868852584448
+    m_Key: Chapter02-Pip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868856778752
+    m_Key: Chapter02-Magnifier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868856778753
+    m_Key: Chapter02-Telescope
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868865167360
+    m_Key: Chapter02-Banknote
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868869361664
+    m_Key: Chapter02-Typewriter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868869361665
+    m_Key: Chapter02-Suitcase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868873555968
+    m_Key: Chapter02-Cane
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868877750272
+    m_Key: Chapter02-Butterfly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868881944576
+    m_Key: Chapter02-Violin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868886138880
+    m_Key: Chapter02-Telephone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868886138881
+    m_Key: Chapter02-Hat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868894527488
+    m_Key: Chapter02-Brush
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868894527489
+    m_Key: Chapter02-Lantern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868898721792
+    m_Key: Chapter02-Colored Pencil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868902916096
+    m_Key: Chapter02-Leaf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868907110400
+    m_Key: Chapter02-Car
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868911304704
+    m_Key: Chapter02-Pitcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868915499008
+    m_Key: Chapter02-Coin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868919693312
+    m_Key: Chapter02-Pocket watch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868923887616
+    m_Key: Chapter02-Ink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868928081920
+    m_Key: Chapter02-Map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868928081921
+    m_Key: Chapter02-Ladybug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868936470528
+    m_Key: Chapter02-Match
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868936470529
+    m_Key: Chapter02-Calendar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868940664832
+    m_Key: Chapter02-Cushion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868944859136
+    m_Key: Chapter02-Statue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868949053440
+    m_Key: Chapter02-Bag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868953247744
+    m_Key: Chapter02-Envelope
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4041868957442048
+    m_Key: Chapter02-Photo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745845567488
+    m_Key: Chapter03-Watermelon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745853956096
+    m_Key: Chapter03-Rope
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745862344704
+    m_Key: Chapter03-Carrot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745866539008
+    m_Key: Chapter03-Pepper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745870733312
+    m_Key: Chapter03-Cabbage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745874927616
+    m_Key: Chapter03-Wheat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745874927617
+    m_Key: Chapter03-Sunflower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745883316224
+    m_Key: Chapter03-Bell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745883316225
+    m_Key: Chapter03-Kite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745891704832
+    m_Key: Chapter03-Fire Extinguisher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745891704833
+    m_Key: Chapter03-Socket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745895899136
+    m_Key: Chapter03-Eggplant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745900093440
+    m_Key: Chapter03-Comb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745900093441
+    m_Key: Chapter03-Teapot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745904287744
+    m_Key: Chapter03-Chick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745908482048
+    m_Key: Chapter03-Fishing Rod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745908482049
+    m_Key: Chapter03-Broom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745912676352
+    m_Key: Chapter03-Tire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745916870656
+    m_Key: Chapter03-Mirror
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745916870657
+    m_Key: Chapter03-Nest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745921064960
+    m_Key: Chapter03-Candlestick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745925259264
+    m_Key: Chapter03-Scarf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745925259265
+    m_Key: Chapter03-Toolbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745929453568
+    m_Key: Chapter03-Lizard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745929453569
+    m_Key: Chapter03-Music Note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745933647872
+    m_Key: Chapter03-Butterfly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745937842176
+    m_Key: Chapter03-Ball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745937842177
+    m_Key: Chapter03-Doll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745942036480
+    m_Key: Chapter03-Mouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745946230784
+    m_Key: Chapter03-Sprinkler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745950425088
+    m_Key: Chapter03-Jug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745950425089
+    m_Key: Chapter03-Coal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745954619392
+    m_Key: Chapter03-Pliers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745954619393
+    m_Key: Chapter03-Screwdriver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745958813696
+    m_Key: Chapter03-Bottle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745963008000
+    m_Key: Chapter03-Horseshoe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745967202304
+    m_Key: Chapter03-Hat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745971396608
+    m_Key: Chapter03-Yarn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745975590912
+    m_Key: Chapter03-Honeycomb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745975590913
+    m_Key: Chapter03-Corn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745979785216
+    m_Key: Chapter03-28
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745983979520
+    m_Key: Chapter03-Gallon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043745983979521
+    m_Key: Chapter03-Gloves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888347045888
+    m_Key: Chapter04-Puzzle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888351240192
+    m_Key: Chapter04-Towel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888355434496
+    m_Key: Chapter04-Stethoscope
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888363823104
+    m_Key: Chapter04-Necklace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888363823105
+    m_Key: Chapter04-Dropper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888368017408
+    m_Key: Chapter04-Piggy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888372211712
+    m_Key: Chapter04-Heart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888372211713
+    m_Key: Chapter04-Brush
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888376406016
+    m_Key: Chapter04-Sketchbook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888376406017
+    m_Key: Chapter04-Trash Bin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888384794624
+    m_Key: Chapter04-Thermometer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888384794625
+    m_Key: Chapter04-Socks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888393183232
+    m_Key: Chapter04-Cotton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888393183233
+    m_Key: Chapter04-Lock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888397377536
+    m_Key: Chapter04-Meter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888397377537
+    m_Key: Chapter04-Bandage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888401571840
+    m_Key: Chapter04-Microscope
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888401571841
+    m_Key: Chapter04-Scissors
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888409960448
+    m_Key: Chapter04-Tray
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888409960449
+    m_Key: Chapter04-Bear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888414154752
+    m_Key: Chapter04-Hat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888418349056
+    m_Key: Chapter04-IV Drip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888418349057
+    m_Key: Chapter04-Rabbit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888422543360
+    m_Key: Chapter04-Yellow Ball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888426737664
+    m_Key: Chapter04-Umbrella
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888430931968
+    m_Key: Chapter04-Keyboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888430931969
+    m_Key: Chapter04-Number
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888435126272
+    m_Key: Chapter04-First Aid Kit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888435126273
+    m_Key: Chapter04-X Ray
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888439320576
+    m_Key: Chapter04-Syringe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888443514880
+    m_Key: Chapter04-Dragonfly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888443514881
+    m_Key: Chapter04-Watercolor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888447709184
+    m_Key: Chapter04-Band Aid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888447709185
+    m_Key: Chapter04-Gift
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888451903488
+    m_Key: Chapter04-Mug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888456097792
+    m_Key: Chapter04-Calender
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888456097793
+    m_Key: Chapter04-Flask
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888460292096
+    m_Key: Chapter04-Fire Extinguisher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888460292097
+    m_Key: Chapter04-Bow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888468680704
+    m_Key: Chapter04-Bottle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888472875008
+    m_Key: Chapter04-Scales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888477069312
+    m_Key: Chapter04-List
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043888481263616
+    m_Key: Chapter04-Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913106022400
+    m_Key: Chapter05-Wallet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913110216704
+    m_Key: Chapter05-Bow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913114411008
+    m_Key: Chapter05-Parrot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913118605312
+    m_Key: Chapter05-6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913122799616
+    m_Key: Chapter05-Tie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913126993920
+    m_Key: Chapter05-Telephone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913131188224
+    m_Key: Chapter05-Pen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913135382528
+    m_Key: Chapter05-Candle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913139576832
+    m_Key: Chapter05-Comb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913139576833
+    m_Key: Chapter05-Shoes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913143771136
+    m_Key: Chapter05-Hat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913147965440
+    m_Key: Chapter05-Fruits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913152159744
+    m_Key: Chapter05-Teapot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913156354048
+    m_Key: Chapter05-Cake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913160548352
+    m_Key: Chapter05-Feather
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913160548353
+    m_Key: Chapter05-Home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913164742656
+    m_Key: Chapter05-Flower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913168936960
+    m_Key: Chapter05-Lighter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913168936961
+    m_Key: Chapter05-Deer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913173131264
+    m_Key: Chapter05-Cane
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913173131265
+    m_Key: Chapter05-Hand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913181519872
+    m_Key: Chapter05-Firewood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913181519873
+    m_Key: Chapter05-Train
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913185714176
+    m_Key: Chapter05-Necklace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913185714177
+    m_Key: Chapter05-Pocket watch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913189908480
+    m_Key: Chapter05-Grasshopper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913194102784
+    m_Key: Chapter05-Blanket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913194102785
+    m_Key: Chapter05-Chandelier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913198297088
+    m_Key: Chapter05-Socks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913202491392
+    m_Key: Chapter05-Box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913202491393
+    m_Key: Chapter05-Mask
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913210880000
+    m_Key: Chapter05-Buttons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913215074304
+    m_Key: Chapter05-Butterfly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913215074305
+    m_Key: Chapter05-Belt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913219268608
+    m_Key: Chapter05-Umbrella
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913223462912
+    m_Key: Chapter05-Wig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913223462913
+    m_Key: Chapter05-Hand Fan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913227657216
+    m_Key: Chapter05-Soap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913227657217
+    m_Key: Chapter05-Envelope
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913231851520
+    m_Key: Chapter05-Hanger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913236045824
+    m_Key: Chapter05-Suitcase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043913236045825
+    m_Key: Chapter05-Map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938775162880
+    m_Key: Chapter06-Gloves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938779357184
+    m_Key: Chapter06-Cola
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938783551488
+    m_Key: Chapter06-Tomato
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938787745792
+    m_Key: Chapter06-Pizza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938787745793
+    m_Key: Chapter06-Olives
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938796134400
+    m_Key: Chapter06-Fork
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938796134401
+    m_Key: Chapter06-Book
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938800328704
+    m_Key: Chapter06-Rose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938800328705
+    m_Key: Chapter06-Lantern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938808717312
+    m_Key: Chapter06-Honey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938812911616
+    m_Key: Chapter06-Strawberry jam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938812911617
+    m_Key: Chapter06-Kiwi jam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938812911618
+    m_Key: Chapter06-Owl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938821300224
+    m_Key: "Chapter06-\u06A9\u0627\u0641\u0647 \u0645\u0648\u0646\u0627"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938825494528
+    m_Key: Chapter06-Cafe Mona
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938825494529
+    m_Key: Chapter06-Watch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938829688832
+    m_Key: Chapter06-Bucket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938833883136
+    m_Key: Chapter06-Ladybug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938833883137
+    m_Key: Chapter06-Bell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938838077440
+    m_Key: Chapter06-Bat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938838077441
+    m_Key: Chapter06-3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938842271744
+    m_Key: Chapter06-Bicycle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938846466048
+    m_Key: Chapter06-Ladder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938850660352
+    m_Key: Chapter06-Cat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938854854656
+    m_Key: Chapter06-Snail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938854854657
+    m_Key: Chapter06-Abacus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938859048960
+    m_Key: Chapter06-Telephone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938863243264
+    m_Key: Chapter06-Cockroach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938863243265
+    m_Key: Chapter06-Umbrella
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938867437568
+    m_Key: Chapter06-Hat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938871631872
+    m_Key: Chapter06-Salt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938871631873
+    m_Key: Chapter06-Pepper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938871631874
+    m_Key: Chapter06-Juice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938880020480
+    m_Key: Chapter06-Milk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938884214784
+    m_Key: Chapter06-Bread
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938884214785
+    m_Key: Chapter06-Arrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938888409088
+    m_Key: Chapter06-Broom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938888409089
+    m_Key: Chapter06-Ball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938892603392
+    m_Key: Chapter06-Coffee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938896797696
+    m_Key: Chapter06-Frame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938896797697
+    m_Key: Chapter06-Tee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938900992000
+    m_Key: Chapter06-Cake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938900992001
+    m_Key: 'Chapter06-Donut '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938909380608
+    m_Key: Chapter06-Balloon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938913574912
+    m_Key: Chapter06-Coin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938913574913
+    m_Key: Chapter06-Radio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938917769216
+    m_Key: Chapter06-Scarf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043938921963520
+    m_Key: Chapter06-Shadow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043992407728128
+    m_Key: ChapterGate-Sara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4043992411922432
+    m_Key: ChapterGate-Car Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6893812382162944
+    m_Key: Chapter01-Clue01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6894758227075072
+    m_Key: Chapter02-Clue01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6894933146329088
+    m_Key: Chapter02-Clue02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6895085550559232
+    m_Key: Chapter03-Clue01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6895145831096320
+    m_Key: Chapter03-Clue02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6895183646941184
+    m_Key: Chapter04-Clue01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6895234750341120
+    m_Key: Chapter04-Clue02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6895267298140160
+    m_Key: Chapter05-Clue01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6895323938021376
+    m_Key: Chapter05-Clue02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6895365813952512
+    m_Key: Chapter06-Clue01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6895407924764672
+    m_Key: Chapter06-Clue02
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4599381437373481261
+  references:
+    version: 2
+    RefIds:
+    - rid: 4599381437373481261
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1733150805193

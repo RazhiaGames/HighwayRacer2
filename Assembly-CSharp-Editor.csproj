@@ -94,13 +94,13 @@
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Editor\RCCP_LODEditor.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Scriptable Objects\Editor\RCCP_AddonPackages.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Editor\RCCP_NosEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Editor\Scripts\InitMUIP.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Editor\RCCP_LightEditor.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Editor\RCCP_GearboxEditor.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Editor\RCCP_WheelBlurEditor.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Editor\RCCP_EditorWindows.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Editor\RCCP_WelcomeWindow.cs" />
     <Compile Include="Assets\MicroVerse-Extras\Road Textures\Demo\Scripts\Prefab Placement\Editor\PrefabPlacementEditor.cs" />
-    <Compile Include="Assets\SweetSugar\Scripts\MapScripts\Editor\MapCameraEditor.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Editor\RCCP_CameraEditor.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Editor\RCCP_DamageEditor.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Scriptable Objects\Editor\RCCP_AssetPaths.cs" />
@@ -117,6 +117,7 @@
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Editor\Customization\RCCP_VehicleUpgrade_PaintManagerEditor.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Editor\RCCP_CreateNewVehicle.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Editor\RCCP_GroundMaterialsEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Editor\Scripts\ContextMenu.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Addons\Installed\Demo Content\Editor\InitLoad\RCCP_DemoAssetsInitLoad.cs" />
     <Compile Include="Assets\HR2\Editor\HR_InitOnLoad.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Editor\RCCP_QuickVehicleSetupWizardWindow.cs" />
@@ -972,6 +973,9 @@
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
@@ -993,6 +997,12 @@
     <Reference Include="Unity.AI.Navigation">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Common.Path.Editor">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Recorder">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
     </Reference>
@@ -1004,6 +1014,9 @@
     </Reference>
     <Reference Include="Unity.ResourceManager">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
@@ -1041,6 +1054,9 @@
     <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Bindings.OpenImageIO.Editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.Bindings.OpenImageIO.Editor.dll</HintPath>
     </Reference>
@@ -1065,6 +1081,9 @@
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
     </Reference>
@@ -1077,26 +1096,29 @@
     <Reference Include="Unity.Profiling.Core">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Multiplayer.Center.Common">
-      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.AI.Navigation.Updater">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Center.Common">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
@@ -1122,8 +1144,14 @@
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder.Editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
@@ -1151,9 +1179,6 @@
     </Reference>
     <Reference Include="Unity.InputSystem">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
-      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
