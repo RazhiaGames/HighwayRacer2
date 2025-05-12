@@ -26,6 +26,6 @@ public class MapCameraManager : Singleton<MapCameraManager>
     public void ZoomInToSelected(Transform waypointsMoverTransform)
     {
         MoveToSelected(waypointsMoverTransform);
-        DOTween.To(() => leanPinchCamera.Zoom, x => leanPinchCamera.Zoom = x, 5f, GS.INS.cameraMoveToSelectedDuration).SetEase(Ease.InOutSine);
+        DOTween.To(() => leanPinchCamera.Zoom, x => leanPinchCamera.Zoom = x, 7f, GS.INS.cameraMoveToSelectedDuration).SetEase(Ease.InOutSine);
     }
 }

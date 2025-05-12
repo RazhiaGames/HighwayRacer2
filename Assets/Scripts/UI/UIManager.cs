@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using Sirenix.OdinInspector;
@@ -17,15 +18,30 @@ public class UIManager : Singleton<UIManager>
     [PropertyTooltip("3 Different Layers for UI Views")] [FoldoutGroup("UI Containers")]
     public List<Transform> containers;
 
-    [Button]
+
+    private void OnEnable()
+    {
+        LevelsMap.LevelSelected += OnLevelSelected;
+    }
+
+
+
+    private void OnDisable()
+    {
+        LevelsMap.LevelSelected -= OnLevelSelected;
+    }
+
+
+    private async void OnLevelSelected(object sender, LevelReachedEventArgs e)
+    {
+        ShowMapView();
+    }
+
     public async void ShowMapView()
     {
         MapView mapView = await ShowViewAsync<MapView>("View-Map");
-        mapView.Initialize(LevelsMap.Instance.selectedLevel.config);
-        mapView.AnimateUp();
+        mapView.Initialize();
     }
-    [Button]
-
     public  void HideMapView()
     {
          HideView("View-Map");

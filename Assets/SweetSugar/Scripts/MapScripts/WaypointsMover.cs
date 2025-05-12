@@ -18,6 +18,7 @@ namespace SweetSugar.Scripts.MapScripts
         //private Vector3 _precisePosition;
         //private bool _isRunning;
         private bool _isForwardDirection;
+        
 
         [HideInInspector]
         public Path Path;
@@ -25,12 +26,39 @@ namespace SweetSugar.Scripts.MapScripts
         [HideInInspector]
         public float Speed;
 
+        public SpriteRenderer whiteWheel;
+
         public void Awake()
         {
             if (Path.IsCurved)
             {
                 _splineCurve = new SplineCurve();
                 UpdateCurvePoints();
+            }
+        }
+
+        private void OnEnable()
+        {
+            LevelsMap.LevelSelected += OnLevelSelected;
+        }
+
+
+
+        private void OnDisable()
+        {
+            LevelsMap.LevelSelected -= OnLevelSelected;
+        }
+        
+        private void OnLevelSelected(object sender, LevelReachedEventArgs e)
+        {
+            JumpTo(LevelsMap.Instance.GetLevel(e.Number).PathPivot);
+            if (!e.IsLocked)
+            {
+                whiteWheel.color = Color.white;
+            }
+            else
+            {
+                whiteWheel.color = Color.red;
             }
         }
 
@@ -49,6 +77,11 @@ namespace SweetSugar.Scripts.MapScripts
                 _finishedAction?.Invoke();
             });
             // TakeNextWaypoint();
+        }
+
+        public void JumpTo(Transform to)
+        {
+            transform.position = to.position;
         }
 
         IEnumerator Anim(Transform from, Transform to)

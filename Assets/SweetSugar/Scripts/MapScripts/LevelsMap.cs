@@ -15,12 +15,14 @@ namespace SweetSugar.Scripts.MapScripts
 
         public bool IsGenerated;
 
-        public MapLevel MapLevelPrefab;
+        [FormerlySerializedAs("MapLevelPrefab")] public MapItem mapItemPrefab;
         public Transform CharacterPrefab;
         public int Count = 10;
 
         public WaypointsMover WaypointsMover;
-        public MapLevel selectedLevel;
+        public MapItem selectedItem;
+        public MapItem currentClickedItem; //the map item that player clicked on
+
         public TranslationType TranslationType;
 
         public bool StarsEnabled;
@@ -42,11 +44,11 @@ namespace SweetSugar.Scripts.MapScripts
         
 
 
-        public static List<MapLevel> GetMapLevels()
+        public static List<MapItem> GetMapLevels()
         {
-            List<MapLevel> MapLevels = new List<MapLevel>();
+            List<MapItem> MapLevels = new List<MapItem>();
             if (MapLevels.Count == 0) //1.4.4
-                MapLevels = FindObjectsOfType<MapLevel>().OrderBy(ml => ml.Number).WhereNotNull().ToList();
+                MapLevels = FindObjectsOfType<MapItem>().OrderBy(ml => ml.Number).WhereNotNull().ToList();
 
             return MapLevels;
         }
@@ -59,12 +61,13 @@ namespace SweetSugar.Scripts.MapScripts
             if (number > 1 && CrosssceneData.win)
                 WalkToLevelInternal(number);
             else TeleportToLevelInternal(number, true);
+            UIManager.Instance.ShowMapView();
             SetCameraToCharacter();
         }
 
         private void UpdateMapLevels()
         {
-            foreach (MapLevel mapLevel in GetMapLevels())
+            foreach (MapItem mapLevel in GetMapLevels())
             {
                 mapLevel.UpdateState(
                     _mapProgressManager.LoadLevelStarsCount(mapLevel.Number),
@@ -111,12 +114,19 @@ namespace SweetSugar.Scripts.MapScripts
 
         internal static void OnLevelSelected(int number)
         {
-            if (LevelSelected != null && !IsLevelLocked(number))
+            if (LevelSelected != null)
             {
-                LevelSelected(Instance, new LevelReachedEventArgs(number));
-            }
+                Instance.currentClickedItem?.OnItemDeclicked();
+                Instance.GetLevel(number).OnItemClicked();
+                Instance.currentClickedItem = Instance.GetLevel(number);
 
-            // GoToLevel(number);
+                if (!IsLevelLocked(number))
+                {
+                    Instance.selectedItem = Instance.GetLevel(number);
+                }
+                LevelSelected(Instance, new LevelReachedEventArgs(number, IsLevelLocked(number)));
+
+            }
         }
 
         public static void GoToLevel(int number)
@@ -182,17 +192,18 @@ namespace SweetSugar.Scripts.MapScripts
 
         private void TeleportToLevelInternal(int number, bool isQuietly)
         {
-            MapLevel mapLevel = GetLevel(number);
-            mapLevel.SetEffect();
-            if (mapLevel.IsLocked)
+            MapItem mapItem = GetLevel(number);
+            mapItem.SetEffect();
+            if (mapItem.IsLocked)
             {
                 Debug.Log(string.Format("Can't jump to locked level number {0}.", number));
             }
             else
             {
                 WaypointsMover.transform.position =
-                    mapLevel.PathPivot.transform.position; //need to fix in the map plugin
-                selectedLevel = mapLevel;
+                    mapItem.PathPivot.transform.position; //need to fix in the map plugin
+                selectedItem = mapItem;
+                currentClickedItem = mapItem;
                 if (!isQuietly)
                     RaiseLevelReached(number);
             }
@@ -204,20 +215,21 @@ namespace SweetSugar.Scripts.MapScripts
 
         private void WalkToLevelInternal(int number)
         {
-            MapLevel mapLevel = GetLevel(number);
-            mapLevel.SetEffect();
-            selectedLevel = GetLevel(number - 1);
-            if (mapLevel.IsLocked)
+            MapItem mapItem = GetLevel(number);
+            mapItem.SetEffect();
+            selectedItem = GetLevel(number - 1);
+            currentClickedItem = selectedItem;
+            if (mapItem.IsLocked)
             {
                 Debug.Log(string.Format("Can't go to locked level number {0}.", number));
             }
             else
             {
-                WaypointsMover.Move(selectedLevel.PathPivot, mapLevel.PathPivot,
+                WaypointsMover.Move(selectedItem.PathPivot, mapItem.PathPivot,
                     () =>
                     {
                         RaiseLevelReached(number);
-                        selectedLevel = mapLevel;
+                        selectedItem = mapItem;
                         OnLevelReached?.Invoke();
                     });
             }
@@ -225,22 +237,27 @@ namespace SweetSugar.Scripts.MapScripts
 
         private void RaiseLevelReached(int number)
         {
-            MapLevel mapLevel = GetLevel(number);
-            mapLevel.SetEffect();
-            UIManager.Instance.ShowMapView();
+            MapItem mapItem = GetLevel(number);
+            mapItem.SetEffect();
 
             if (LevelReached != null)
-                LevelReached(this, new LevelReachedEventArgs(number));
+            {
+                Instance.currentClickedItem?.OnItemDeclicked();
+                Instance.GetLevel(number).OnItemClicked();
+                Instance.currentClickedItem = Instance.GetLevel(number);
+                LevelReached(this, new LevelReachedEventArgs(number, IsLevelLocked(number)));
+
+            }
         }
 
-        public MapLevel GetLevel(int number)
+        public MapItem GetLevel(int number)
         {
             return GetMapLevels().SingleOrDefault(ml => ml.Number == number);
         }
 
         private void ClearAllProgressInternal()
         {
-            foreach (MapLevel mapLevel in GetMapLevels())
+            foreach (MapItem mapLevel in GetMapLevels())
                 _mapProgressManager.ClearLevelProgress(mapLevel.Number);
             Reset();
         }
@@ -249,7 +266,7 @@ namespace SweetSugar.Scripts.MapScripts
         {
             StarsEnabled = bEnabled;
             int starsCount = 0;
-            foreach (MapLevel mapLevel in GetMapLevels().WhereNotNull())
+            foreach (MapItem mapLevel in GetMapLevels().WhereNotNull())
             {
                 mapLevel.UpdateStars(starsCount);
                 starsCount = (starsCount + 1) % 4;
@@ -261,7 +278,7 @@ namespace SweetSugar.Scripts.MapScripts
         public void SetStarsType(StarsType starsType)
         {
             StarsType = starsType;
-            foreach (MapLevel mapLevel in GetMapLevels().WhereNotNull())
+            foreach (MapItem mapLevel in GetMapLevels().WhereNotNull())
                 mapLevel.UpdateStarsType(starsType);
         }
     }

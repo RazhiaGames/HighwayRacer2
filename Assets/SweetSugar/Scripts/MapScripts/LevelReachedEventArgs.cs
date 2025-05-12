@@ -16,14 +16,13 @@ namespace SweetSugar.Scripts.MapScripts
 {
     public class LevelReachedEventArgs : EventArgs
     {
-        public int Number
-        {
-            get; private set;
-        }
+        public int Number { get; private set; }
+        public bool IsLocked { get; private set; }
 
-        public LevelReachedEventArgs(int number)
+        public LevelReachedEventArgs(int number, bool isLocked)
         {
             Number = number;
+            IsLocked = isLocked;
         }
     }
 }

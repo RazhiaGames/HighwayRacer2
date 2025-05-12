@@ -1,5 +1,38 @@
 {
   "dependencies": {
+    "com.adamgryu.inspectorhistory": {
+      "version": "https://github.com/adamgryu/InspectorHistory-Unity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "9bf614782015e0c71a226487b493560ebb4353ae"
+    },
+    "com.coffee.ui-effect": {
+      "version": "https://github.com/mob-sakai/UIEffect.git?path=Packages/src#5.8.4",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "hash": "3ff52e4735481da36428d361afe28b85eca96e2d"
+    },
+    "com.coffee.ui-particle": {
+      "version": "https://github.com/mob-sakai/ParticleEffectForUGUI.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0"
+      },
+      "hash": "4b98abd7469b10d55c9c623830cb6e1518f72731"
+    },
+    "com.smkplus.custom-toolbar": {
+      "version": "https://github.com/Erfan-Sheikh/CustomToolbar.git#master",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "953ee2e5bd24e1d7cd6e02b5f06c5681037b7347"
+    },
     "com.unity.2d.common": {
       "version": "9.1.0",
       "depth": 1,

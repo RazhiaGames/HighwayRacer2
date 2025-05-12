@@ -17,22 +17,22 @@ using UnityEngine;
 
 namespace SweetSugar.Scripts.MapScripts.Editor
 {
-    [CustomEditor(typeof(MapLevel))]
-    public class MapLevelEditor : LevelsEditorBase
+    [CustomEditor(typeof(MapItem))]
+    public class MapItemEditor : LevelsEditorBase
     {
-        private MapLevel _mapLevel;
+        private MapItem _mapItem;
 
         private static GameObject _pendingDeletedGameObject;
 
         public void OnEnable()
         {
-            _mapLevel = target as MapLevel;
+            _mapItem = target as MapItem;
             DeletePendingGameObject();
         }
         void OnSceneGUI()
         {
             Event e = Event.current;
-            if (e.type == EventType.KeyUp && FindObjectsOfType(typeof(MapLevel)).Count() == _mapLevel.Number)
+            if (e.type == EventType.KeyUp && FindObjectsOfType(typeof(MapItem)).Count() == _mapItem.Number)
             {
                 if (e.keyCode == KeyCode.G)
                     AddAfter();
@@ -47,8 +47,8 @@ namespace SweetSugar.Scripts.MapScripts.Editor
 
             if (GUILayout.Button("Insert before"))
             {
-                List<MapLevel> mapLevels = GetMapLevels();
-                int ind = mapLevels.IndexOf(_mapLevel);
+                List<MapItem> mapLevels = GetMapLevels();
+                int ind = mapLevels.IndexOf(_mapItem);
                 InsertMapLevel(ind, mapLevels);
             }
 
@@ -72,37 +72,37 @@ namespace SweetSugar.Scripts.MapScripts.Editor
 
         private void AddAfter()
         {
-            List<MapLevel> mapLevels = GetMapLevels();
-            int ind = mapLevels.IndexOf(_mapLevel);
+            List<MapItem> mapLevels = GetMapLevels();
+            int ind = mapLevels.IndexOf(_mapItem);
             InsertMapLevel(ind + 1, mapLevels);
         }
 
         private void UpdateSceneName()
         {
-            string oldSceneName = _mapLevel.SceneName;
-            string newSceneName = _mapLevel.LevelScene == null ? null : _mapLevel.LevelScene.name;
+            string oldSceneName = _mapItem.SceneName;
+            string newSceneName = _mapItem.LevelScene == null ? null : _mapItem.LevelScene.name;
             if (oldSceneName != newSceneName)
             {
-                _mapLevel.SceneName = newSceneName;
-                EditorUtility.SetDirty(_mapLevel);
+                _mapItem.SceneName = newSceneName;
+                EditorUtility.SetDirty(_mapItem);
             }
         }
 
-        private void InsertMapLevel(int ind, List<MapLevel> mapLevels)
+        private void InsertMapLevel(int ind, List<MapItem> mapLevels)
         {
             Vector2 position = GetInterpolatedPosition(ind, mapLevels);
             LevelsMap levelsMap = FindObjectOfType<LevelsMap>();
-            MapLevel mapLevel = CreateMapLevel(position, ind, levelsMap.MapLevelPrefab);
-            mapLevel.transform.parent = _mapLevel.transform.parent;
-            mapLevel.transform.SetSiblingIndex(ind);
-            mapLevels.Insert(ind, mapLevel);
+            MapItem mapItem = CreateMapLevel(position, ind, levelsMap.mapItemPrefab);
+            mapItem.transform.parent = _mapItem.transform.parent;
+            mapItem.transform.SetSiblingIndex(ind);
+            mapLevels.Insert(ind, mapItem);
             UpdateLevelsNumber(mapLevels);
             UpdatePathWaypoints(mapLevels);
             SetStarsEnabled(levelsMap, levelsMap.StarsEnabled);
-            Selection.activeGameObject = mapLevel.gameObject;
+            Selection.activeGameObject = mapItem.gameObject;
         }
 
-        private Vector2 GetInterpolatedPosition(int ind, List<MapLevel> mapLevels)
+        private Vector2 GetInterpolatedPosition(int ind, List<MapItem> mapLevels)
         {
             Vector3 startPosition = mapLevels[Mathf.Max(0, ind - 1)].transform.position;
             Vector3 finishPosition = mapLevels[Mathf.Min(ind, mapLevels.Count - 1)].transform.position;
@@ -118,9 +118,9 @@ namespace SweetSugar.Scripts.MapScripts.Editor
 
         private void Delete()
         {
-            List<MapLevel> mapLevels = GetMapLevels();
-            int ind = mapLevels.IndexOf(_mapLevel);
-            mapLevels.Remove(_mapLevel);
+            List<MapItem> mapLevels = GetMapLevels();
+            int ind = mapLevels.IndexOf(_mapItem);
+            mapLevels.Remove(_mapItem);
             UpdateLevelsNumber(mapLevels);
             UpdatePathWaypoints(mapLevels);
             LevelsMap levelsMap = FindObjectOfType<LevelsMap>();
@@ -129,7 +129,7 @@ namespace SweetSugar.Scripts.MapScripts.Editor
                     ? mapLevels[Mathf.Max(0, ind - 1)].gameObject
                     : levelsMap.gameObject;
             SetStarsEnabled(levelsMap, levelsMap.StarsEnabled);
-            _pendingDeletedGameObject = _mapLevel.gameObject;
+            _pendingDeletedGameObject = _mapItem.gameObject;
         }
 
         private void DeletePendingGameObject()

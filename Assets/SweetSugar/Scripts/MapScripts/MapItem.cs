@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace SweetSugar.Scripts.MapScripts
 {
-    public class MapLevel : MonoBehaviour
+    public class MapItem : MonoBehaviour
     {
         private Vector3 _originalScale;
         private bool _isScaled;
@@ -33,6 +33,7 @@ namespace SweetSugar.Scripts.MapScripts
         public GameObject idleEffect;
 
         public RTLTextMeshPro levelNumber;
+        public GameObject levelDetails;
         
         [Header("Player Settings")]
         public RacingLevelConfig config;
@@ -122,6 +123,16 @@ namespace SweetSugar.Scripts.MapScripts
             FindObjectsOfType<IdleCircleMapEffect>().ForEachY(x=>Destroy(x.gameObject));
             var i = Instantiate(idleEffect, transform.position, Quaternion.identity, transform);
             i.transform.localScale = new Vector3(1.24f,1,1);
+        }
+
+        public void OnItemClicked()
+        {
+            levelDetails.gameObject.SetActive(true);
+        }
+
+        public void OnItemDeclicked()
+        {
+            levelDetails.gameObject.SetActive(false);
         }
     }
 }

@@ -472,6 +472,9 @@
     <Reference Include="DOTween">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
+    <Reference Include="Coffee.UIEffect.R">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\PackageCache\com.coffee.ui-effect@4969112204b2\Runtime\Coffee.UIEffect.R.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\PackageCache\com.unity.visualscripting@7dcdc439b230\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
@@ -483,6 +486,9 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Coffee.UIParticle.R">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\PackageCache\com.coffee.ui-particle@4b98abd7469b\Runtime\Coffee.UIParticle.R.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>E:\Applications\UnityEditors\Unity 6000.1.0f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -970,6 +976,9 @@
     <Reference Include="Unity.Rendering.LightTransport.Editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Coffee.UIParticle">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Coffee.UIParticle.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
@@ -981,6 +990,9 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="CustomToolbar.Editor">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\CustomToolbar.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections.Editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
@@ -1024,6 +1036,9 @@
     <Reference Include="Cinemachine">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
+    <Reference Include="InspectorHistory.Editor">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\InspectorHistory.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
@@ -1050,6 +1065,9 @@
     </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Coffee.UIEffect">
+      <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Coffee.UIEffect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:\Work\Workspace\_Github Repos\HighwayRacer2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>

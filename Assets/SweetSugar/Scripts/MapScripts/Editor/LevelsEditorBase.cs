@@ -19,19 +19,19 @@ namespace SweetSugar.Scripts.MapScripts.Editor
 {
     public abstract class LevelsEditorBase : UnityEditor.Editor
     {
-        protected List<MapLevel> GetMapLevels()
+        protected List<MapItem> GetMapLevels()
         {
-            return FindObjectsOfType<MapLevel>().OrderBy(ml => ml.Number).ToList();
+            return FindObjectsOfType<MapItem>().OrderBy(ml => ml.Number).ToList();
         }
 
-        protected MapLevel CreateMapLevel(Vector3 position, int number, MapLevel mapLevelPrefab)
+        protected MapItem CreateMapLevel(Vector3 position, int number, MapItem mapItemPrefab)
         {
-            MapLevel mapLevel = PrefabUtility.InstantiatePrefab(mapLevelPrefab) as MapLevel;
-            mapLevel.transform.position = position;
-            return mapLevel;
+            MapItem mapItem = PrefabUtility.InstantiatePrefab(mapItemPrefab) as MapItem;
+            mapItem.transform.position = position;
+            return mapItem;
         }
 
-        protected void UpdateLevelsNumber(List<MapLevel> mapLevels)
+        protected void UpdateLevelsNumber(List<MapItem> mapLevels)
         {
             for (int i = 0; i < mapLevels.Count; i++)
             {
@@ -40,11 +40,11 @@ namespace SweetSugar.Scripts.MapScripts.Editor
             }
         }
 
-        protected void UpdatePathWaypoints(List<MapLevel> mapLevels)
+        protected void UpdatePathWaypoints(List<MapItem> mapLevels)
         {
             Path path = FindObjectOfType<Path>();
             path.Waypoints.Clear();
-            foreach (MapLevel mapLevel in mapLevels)
+            foreach (MapItem mapLevel in mapLevels)
                 path.Waypoints.Add(mapLevel.PathPivot);
         }
 
