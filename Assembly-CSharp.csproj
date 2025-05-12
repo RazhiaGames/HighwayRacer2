@@ -122,6 +122,7 @@
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Customization\RCCP_CustomizationLoadout.cs" />
     <Compile Include="Assets\Ash Assets\Common Scripts\GetReference.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_PurchaseItem.cs" />
+    <Compile Include="Assets\Scripts\UI\RippleCreator.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerSlider.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Engine.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\RCCP_VehicleUpgrade_Speed.cs" />
