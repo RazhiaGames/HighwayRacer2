@@ -189,8 +189,8 @@
     <Compile Include="Assets\Modern UI Pack\Scripts\Dropdown\DropdownMultiSelectEditor.cs" />
     <Compile Include="Assets\HR2\Scripts\Roads and Path\HR_CurvedRoad.cs" />
     <Compile Include="Assets\SweetSugar\Scripts\MapScripts\PlayerPrefsMapProgressManager.cs" />
-    <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Others\RCCP_TruckTrailer.cs" />
     <Compile Include="Assets\Scripts\Map\MapCameraManager.cs" />
+    <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Others\RCCP_TruckTrailer.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Exhausts.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_PurchaseUpgrade.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerToggle.cs" />
