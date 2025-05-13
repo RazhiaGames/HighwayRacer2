@@ -14,14 +14,14 @@ public class MapManager : Singleton<MapManager>
 
     void OnEnable()
     {
-        LevelsMap.LevelSelected += OnLevelClicked;
-        LevelsMap.OnLevelReached += OnLevelReached;
+        LevelsMap.MapItemClicked += OnMapItemClicked;
+        LevelsMap.OnLevelReached += OnMapItemReached;
     }
 
     void OnDisable()
     {
-        LevelsMap.LevelSelected -= OnLevelClicked;
-        LevelsMap.OnLevelReached -= OnLevelReached;
+        LevelsMap.MapItemClicked -= OnMapItemClicked;
+        LevelsMap.OnLevelReached -= OnMapItemReached;
     }
 
     public void SaveLevelStarsCount(int level, int starsCount)
@@ -36,14 +36,17 @@ public class MapManager : Singleton<MapManager>
     }
 
 
-    public void OnLevelClicked(object sender, LevelReachedEventArgs args)
+    public void OnMapItemClicked(object sender, LevelReachedEventArgs args)
     {
         if (EventSystem.current.IsPointerOverGameObject(-1))
             return;
+        if (LevelsMap.Instance.prevClickedItem)
+            LevelsMap.Instance.prevClickedItem.OnItemDeClicked();
+        LevelsMap.Instance.currentClickedItem.OnItemClicked();
     }
 
 
-    void OnLevelReached()
+    void OnMapItemReached()
     {
         var num = PlayerPrefs.GetInt("OpenLevel");
         if (CrosssceneData.openNextLevel && CrosssceneData.totalLevels >= num)

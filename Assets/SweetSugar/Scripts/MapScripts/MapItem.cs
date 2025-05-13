@@ -1,7 +1,9 @@
-﻿using RTLTMPro;
+﻿using System;
+using RTLTMPro;
 using SweetSugar.Scripts.GUI;
 using SweetSugar.Scripts.System;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 namespace SweetSugar.Scripts.MapScripts
 {
@@ -43,6 +45,14 @@ namespace SweetSugar.Scripts.MapScripts
             levelNumber.text = (Number).ToString();
         }
 
+
+
+
+        public void OnDisable()
+        {
+            if (LevelsMap.GetIsClickEnabled())
+                ResetScale();
+        }
         #region Enable click
 
         public void OnMouseEnter()
@@ -69,11 +79,7 @@ namespace SweetSugar.Scripts.MapScripts
             _isScaled = true;
         }
 
-        public void OnDisable()
-        {
-            if (LevelsMap.GetIsClickEnabled())
-                ResetScale();
-        }
+
 
         public void OnMouseUpAsButton()
         {
@@ -125,12 +131,14 @@ namespace SweetSugar.Scripts.MapScripts
             i.transform.localScale = new Vector3(1.24f,1,1);
         }
 
+
         public void OnItemClicked()
         {
             levelDetails.gameObject.SetActive(true);
+            MapCameraManager.Instance.MoveToSelected(PathPivot);
         }
 
-        public void OnItemDeclicked()
+        public void OnItemDeClicked()
         {
             levelDetails.gameObject.SetActive(false);
         }

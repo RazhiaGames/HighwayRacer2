@@ -18,6 +18,7 @@ public class MapView : View
     {
         goToGameButton.onClick.AddListener(GoToGameButtonClicked);
         goToGarageButton.onClick.AddListener(GoToGarageButtonClicked);
+        LevelsMap.MapItemClicked += OnMapItemClicked;
     }
 
 
@@ -26,7 +27,7 @@ public class MapView : View
     {
         goToGameButton.onClick.RemoveListener(GoToGameButtonClicked);
         goToGarageButton.onClick.RemoveListener(GoToGarageButtonClicked);
-
+        LevelsMap.MapItemClicked -= OnMapItemClicked;
     }
 
     private void GoToGameButtonClicked()
@@ -39,6 +40,11 @@ public class MapView : View
     private void GoToGarageButtonClicked()
     {
         GarageManager.Instance.ShowGarage();
+    }
+
+    private void OnMapItemClicked(object sender, LevelReachedEventArgs e)
+    {
+        Initialize();
     }
 
 

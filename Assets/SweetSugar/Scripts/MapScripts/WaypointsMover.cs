@@ -39,17 +39,17 @@ namespace SweetSugar.Scripts.MapScripts
 
         private void OnEnable()
         {
-            LevelsMap.LevelSelected += OnLevelSelected;
+            LevelsMap.MapItemSelected += OnMapItemSelected;
         }
 
 
 
         private void OnDisable()
         {
-            LevelsMap.LevelSelected -= OnLevelSelected;
+            LevelsMap.MapItemSelected -= OnMapItemSelected;
         }
         
-        private void OnLevelSelected(object sender, LevelReachedEventArgs e)
+        private void OnMapItemSelected(object sender, LevelReachedEventArgs e)
         {
             JumpTo(LevelsMap.Instance.GetLevel(e.Number).PathPivot);
             if (!e.IsLocked)

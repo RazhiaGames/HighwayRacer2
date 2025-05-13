@@ -15,13 +15,16 @@ namespace SweetSugar.Scripts.MapScripts
 
         public bool IsGenerated;
 
-        [FormerlySerializedAs("MapLevelPrefab")] public MapItem mapItemPrefab;
+        [FormerlySerializedAs("MapLevelPrefab")]
+        public MapItem mapItemPrefab;
+
         public Transform CharacterPrefab;
         public int Count = 10;
 
         public WaypointsMover WaypointsMover;
         public MapItem selectedItem;
-        public MapItem currentClickedItem; //the map item that player clicked on
+        public MapItem currentClickedItem;
+        public MapItem prevClickedItem; 
 
         public TranslationType TranslationType;
 
@@ -32,7 +35,6 @@ namespace SweetSugar.Scripts.MapScripts
         public bool IsClickEnabled;
 
 
-
         public void OnEnable()
         {
             if (IsGenerated)
@@ -40,8 +42,6 @@ namespace SweetSugar.Scripts.MapScripts
                 Reset();
             }
         }
-        
-        
 
 
         public static List<MapItem> GetMapLevels()
@@ -78,7 +78,7 @@ namespace SweetSugar.Scripts.MapScripts
         {
             int lastUnlockedNumber = GetMapLevels().Where(l => !l.IsLocked).Select(l => l.Number).Max() - 1;
             lastUnlockedNumber = Mathf.Clamp(lastUnlockedNumber, 1, lastUnlockedNumber);
-            TeleportToLevelInternal(lastUnlockedNumber, true);
+            // TeleportToLevelInternal(lastUnlockedNumber, true);
         }
 
         public static int GetLastestReachedLevel()
@@ -94,8 +94,9 @@ namespace SweetSugar.Scripts.MapScripts
 
         #region Events
 
-        public static event EventHandler<LevelReachedEventArgs> LevelSelected;
-        public static event EventHandler<LevelReachedEventArgs> LevelReached;
+        public static event EventHandler<LevelReachedEventArgs> MapItemSelected;
+        public static event EventHandler<LevelReachedEventArgs> MapItemClicked;
+        public static event EventHandler<LevelReachedEventArgs> MapItemReached;
 
         #endregion
 
@@ -113,19 +114,19 @@ namespace SweetSugar.Scripts.MapScripts
 
         internal static void OnLevelSelected(int number)
         {
-            if (LevelSelected != null)
+            if (MapItemSelected != null)
             {
-                Instance.currentClickedItem?.OnItemDeclicked();
-                Instance.GetLevel(number).OnItemClicked();
-                Instance.currentClickedItem = Instance.GetLevel(number);
 
                 if (!IsLevelLocked(number))
                 {
                     Instance.selectedItem = Instance.GetLevel(number);
                 }
-                LevelSelected(Instance, new LevelReachedEventArgs(number, IsLevelLocked(number)));
 
+                MapItemSelected(Instance, new LevelReachedEventArgs(number, IsLevelLocked(number)));
             }
+
+            InvokeLevelClicked(Instance.GetLevel(number));
+
         }
 
         public static void GoToLevel(int number)
@@ -191,6 +192,7 @@ namespace SweetSugar.Scripts.MapScripts
 
         private void TeleportToLevelInternal(int number, bool isQuietly)
         {
+            Debug.Log("TeleportToLevelInternal");
             MapItem mapItem = GetLevel(number);
             mapItem.SetEffect();
             if (mapItem.IsLocked)
@@ -202,7 +204,7 @@ namespace SweetSugar.Scripts.MapScripts
                 WaypointsMover.transform.position =
                     mapItem.PathPivot.transform.position; //need to fix in the map plugin
                 selectedItem = mapItem;
-                currentClickedItem = mapItem;
+                InvokeLevelClicked(mapItem);
                 if (!isQuietly)
                     RaiseLevelReached(number);
             }
@@ -217,7 +219,7 @@ namespace SweetSugar.Scripts.MapScripts
             MapItem mapItem = GetLevel(number);
             mapItem.SetEffect();
             selectedItem = GetLevel(number - 1);
-            currentClickedItem = selectedItem;
+
             if (mapItem.IsLocked)
             {
                 Debug.Log(string.Format("Can't go to locked level number {0}.", number));
@@ -229,9 +231,17 @@ namespace SweetSugar.Scripts.MapScripts
                     {
                         RaiseLevelReached(number);
                         selectedItem = mapItem;
+                        InvokeLevelClicked(selectedItem);
                         OnLevelReached?.Invoke();
                     });
             }
+        }
+
+        private static void InvokeLevelClicked(MapItem currentItem)
+        {
+            Instance.prevClickedItem = Instance.currentClickedItem;
+            Instance.currentClickedItem = currentItem;
+            MapItemClicked?.Invoke(Instance, new LevelReachedEventArgs(currentItem.Number, IsLevelLocked(currentItem.Number)));
         }
 
         private void RaiseLevelReached(int number)
@@ -239,13 +249,10 @@ namespace SweetSugar.Scripts.MapScripts
             MapItem mapItem = GetLevel(number);
             mapItem.SetEffect();
 
-            if (LevelReached != null)
+            if (MapItemReached != null)
             {
-                Instance.currentClickedItem?.OnItemDeclicked();
-                Instance.GetLevel(number).OnItemClicked();
-                Instance.currentClickedItem = Instance.GetLevel(number);
-                LevelReached(this, new LevelReachedEventArgs(number, IsLevelLocked(number)));
-
+                MapItemReached(this, new LevelReachedEventArgs(number, IsLevelLocked(number)));
+                InvokeLevelClicked(Instance.GetLevel(number));
             }
         }
 

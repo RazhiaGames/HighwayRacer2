@@ -37,8 +37,8 @@ namespace SweetSugar.Scripts.MapScripts
         public void OnEnable()
         {
             Debug.Log("Subscribe to events.");
-            LevelsMap.LevelSelected += OnLevelSelected;
-            LevelsMap.LevelReached += OnLevelReached;
+            LevelsMap.MapItemSelected += OnMapItemSelected;
+            LevelsMap.MapItemReached += OnMapItemReached;
             //            YesButton.Click += OnYesButtonClick;
             //            NoButton.Click += OnNoButtonClick;
         }
@@ -46,13 +46,13 @@ namespace SweetSugar.Scripts.MapScripts
         public void OnDisable()
         {
             Debug.Log("Unsubscribe from events.");
-            LevelsMap.LevelSelected -= OnLevelSelected;
-            LevelsMap.LevelReached -= OnLevelReached;
+            LevelsMap.MapItemSelected -= OnMapItemSelected;
+            LevelsMap.MapItemReached -= OnMapItemReached;
             //           YesButton.Click -= OnYesButtonClick;
             //           NoButton.Click -= OnNoButtonClick;
         }
 
-        private void OnLevelReached(object sender, LevelReachedEventArgs e)
+        private void OnMapItemReached(object sender, LevelReachedEventArgs e)
         {
             Debug.Log(string.Format("Level {0} reached.", e.Number));
         }
@@ -183,7 +183,7 @@ namespace SweetSugar.Scripts.MapScripts
 
         #region Confirmation demo
 
-        private void OnLevelSelected(object sender, LevelReachedEventArgs e)
+        private void OnMapItemSelected(object sender, LevelReachedEventArgs e)
         {
         }
 

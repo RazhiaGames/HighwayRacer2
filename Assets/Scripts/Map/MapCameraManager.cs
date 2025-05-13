@@ -11,7 +11,7 @@ public class MapCameraManager : Singleton<MapCameraManager>
     public void MoveToSelected(Transform tf)
     {
         var localPos = transform.InverseTransformPoint(tf.transform.position);
-        localPos += new Vector3(0, 3f, 0);
+        localPos += new Vector3(0, -1f, 0);
         var newPos = new Vector3(localPos.x, localPos.y, 0);
         var globalPos = transform.TransformPoint(newPos);
 	    
