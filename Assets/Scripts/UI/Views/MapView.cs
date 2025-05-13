@@ -10,18 +10,23 @@ public class MapView : View
     public GameObject playOnEffect;
     public GameObject playOffEffect;
     public RTLTextMeshPro prizeText;
-    public Button goToGameButton;
+    public ButtonElement goToGameButton;
+    public ButtonElement goToGarageButton;
 
 
     private void OnEnable()
     {
         goToGameButton.onClick.AddListener(GoToGameButtonClicked);
+        goToGarageButton.onClick.AddListener(GoToGarageButtonClicked);
     }
+
 
 
     private void OnDisable()
     {
         goToGameButton.onClick.RemoveListener(GoToGameButtonClicked);
+        goToGarageButton.onClick.RemoveListener(GoToGarageButtonClicked);
+
     }
 
     private void GoToGameButtonClicked()
@@ -30,6 +35,12 @@ public class MapView : View
         Debug.Log($"Go To Game Button: {selectedLevelConfig.levelType.ToString()}");
         //GameManager.Instance.GoToLevel(selectedLevelConfig)
     }
+    
+    private void GoToGarageButtonClicked()
+    {
+        GarageManager.Instance.ShowGarage();
+    }
+
 
     public void Initialize()
     {

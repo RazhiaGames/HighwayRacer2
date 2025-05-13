@@ -10,31 +10,18 @@ using UnityEngine.AddressableAssets;
 
 public class UIManager : Singleton<UIManager>
 {
-
-
     private Dictionary<string, GameObject> _activeViews = new();
     private Dictionary<string, GameObject> _viewPrefabs = new();
 
     [PropertyTooltip("3 Different Layers for UI Views")] [FoldoutGroup("UI Containers")]
     public List<Transform> containers;
 
+    public GameObject mainMenuView;
 
-    private void OnEnable()
+    protected override void Awake()
     {
-        LevelsMap.LevelSelected += OnLevelSelected;
-    }
-
-
-
-    private void OnDisable()
-    {
-        LevelsMap.LevelSelected -= OnLevelSelected;
-    }
-
-
-    private async void OnLevelSelected(object sender, LevelReachedEventArgs e)
-    {
-        ShowMapView();
+        base.Awake();
+        PreloadViewAsync("View-Map");
     }
 
     public async void ShowMapView()
@@ -47,8 +34,27 @@ public class UIManager : Singleton<UIManager>
          HideView("View-Map");
     }
     
+    
+    
+    public void ShowMainMenuView()
+    {
+        mainMenuView.gameObject.SetActive(true);
+    }
+
+    public void HideMainMenuView()
+    {
+        mainMenuView.gameObject.SetActive(false);
+    }
+    
     #region AddressablesBoilerPlate
     
+    public async UniTask PreloadViewAsync(string addressKey, CancellationToken ct = default)
+    {
+        if (_viewPrefabs.ContainsKey(addressKey)) return;
+
+        var prefab = await Addressables.LoadAssetAsync<GameObject>(addressKey).ToUniTask(cancellationToken: ct);
+        _viewPrefabs[addressKey] = prefab;
+    }
     public async UniTask<T> ShowViewAsync<T>(string addressKey, ViewPriority order = ViewPriority.Low, CancellationToken ct = default)
         where T : Component
     {
@@ -105,4 +111,5 @@ public class UIManager : Singleton<UIManager>
         Medium = 1,
         High = 2
     }
+
 }

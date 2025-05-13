@@ -61,7 +61,6 @@ namespace SweetSugar.Scripts.MapScripts
             if (number > 1 && CrosssceneData.win)
                 WalkToLevelInternal(number);
             else TeleportToLevelInternal(number, true);
-            UIManager.Instance.ShowMapView();
             SetCameraToCharacter();
         }
 

@@ -274,6 +274,7 @@
     <Compile Include="Assets\HR2\Scripts\Camera\HR_Camera_Showroom.cs" />
     <Compile Include="Assets\HR2\Scripts\Traffic\HR_TrafficManager.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Scriptable Objects\RCCP_DemoVehicles.cs" />
+    <Compile Include="Assets\GarageManager.cs" />
     <Compile Include="Assets\Ash Assets\Ash Vehicle AI\AI Scripts\ReverseWhenStuck.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\RCCP_VehicleUpgrade_Neon.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Notification\NotificationManagerEditor.cs" />
@@ -329,6 +330,7 @@
     <Compile Include="Assets\HR2\Scripts\Traffic\HR_TrafficCar.cs" />
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_KeyEnter.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Editors\RCCP_Version.cs" />
+    <Compile Include="Assets\Scripts\UI\BuyButton.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Event\RCCP_Event_Output.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\UI\RCCP_UI_SetMobileController.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Demo\RCCP_CrashHammer.cs" />
@@ -379,6 +381,7 @@
     <Compile Include="Assets\Modern UI Pack\Scripts\Layout Group\RadialLayoutGroup.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerSliderEditor.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_HoodCamera.cs" />
+    <Compile Include="Assets\Scripts\UI\HRUIMod.cs" />
     <Compile Include="Assets\Scripts\UI\Utils\MonoUtils.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Inputs\RCCP_InputManager.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerEditor.cs" />
@@ -414,6 +417,7 @@
     <Compile Include="Assets\HR2\Scripts\UI\HR_UI_CartItem.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Camera\RCCP_ShowroomCamera.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Vehicle\RCCP_Lod.cs" />
+    <Compile Include="Assets\Scripts\UI\Utils\E_DynamicScore.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Editors\RCCP_PlayerPrefsX.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Rendering\UIGradient.cs" />
     <Compile Include="Assets\HR2\Realistic Car Controller Pro\Scripts\Upgrades\Managers\RCCP_VehicleUpgrade_DecalManager.cs" />
